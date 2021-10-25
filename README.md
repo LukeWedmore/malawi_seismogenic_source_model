@@ -18,6 +18,7 @@ The MSSD consists of two components:
 2) The mapped trace of each source, with associated source attributes (### Data Table).
 
 ## Data Format
+The MSSD is a geospatial database containing a collective of seismogenic source traces in GIS vector format. 
 
 ### Data Table
 Attribute                      | Type        | Description                | Notes
@@ -44,4 +45,28 @@ MAFD_id                        | list        | List of integers of ID of equival
   
 List and brief description of fault geometry, slip rate estimates and earthquake source attributes in the MSSD. Attributes are assigned to each rupture source, with section, fault, and multi-fault ruptures stored in separate files.
 
+## File Formats
 
+Each section, fault and multi-fault is associated with a source in the separate 3D geometrical model that is listed as a separate comma-separated-values (csv) file. The database consists of three separate geospatial files that describe the sections, faults and multi-faults that make up the MSSD. 
+  
+The sections, faults and multi-faults in this database are provided in a variety of GIS vector file formats. [GeoJSON] is the version of record, and any changes should be made in this version before they are converted to other file formats using the script in the repository that uses the [GDAL] tool [ogr2ogr] (the script is adapted from https://github.com/cossatot/central_am_carib_faults/blob/master/convert.sh - we thank Richard Styron for making this publicly available). The other versions available are [ESRI ShapeFile], [KML], [GMT], and [GeoPackage].
+
+  
+## Version Control
+
+This version is intended to be "Live" and as such we encourage edits of the GeoJSON file and the submission of pull requests. Please contact Jack Williams <jack.williams@otago.ac.nz> Luke Wedmore <luke.wedmore@bristol.ac.uk> or Hassan Mdala <mdalahassan@yahoo.com> for information, other requests or if you find any errors within the database.
+  
+It is the intention that future versions of this database will include fault slip rates that have been determined from direct geological methods (e.g. offset stratigraphy that has been dated) rather than the systems based approach that is currently used.
+  
+  
+### References
+[MAFD]: https://doi.org/10.5281/zenodo.5507190
+[GeoJSON]: http://geojson.org/
+[GeoPackage]: https://www.geopackage.org/
+[ESRI ShapeFile]: https://support.esri.com/en/white-paper/279
+[Global Earthquake Model Global Active Faults Database]: https://github.com/cossatot/gem-global-active-faults
+[GEM-GAFD]: https://github.com/cossatot/gem-global-active-faults
+[ogr2ogr]: https://gdal.org/programs/ogr2ogr.html
+[GDAL]: https://gdal.org/
+[KML]: https://earth.google.com
+[GMT]: https://www.generic-mapping-tools.org/
