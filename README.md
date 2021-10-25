@@ -11,14 +11,16 @@ The MSSD is the first seismogenic source database in central and northern Malawi
 
 ## Citation
 Prior to publication please cite this database as:
+Williams, J. N., Wedmore, L. N .J., Fagereng, Å., Werner, M. J., Biggs, J., Mdala, H., Kolawole, F., Shillington, D. J., Dulanya, Z., Mphepo, F., Chindandali, P., Wright, L. J. M.., Scholz, C. A. Geological and geodetic constraints on the seismic hazard of Malawi's active faults: the Malawi Seismogenic Source Database (MSSD). _Manuscript submitted to Natural Hazards and Earth System Sciences_
 
-## Database Design
-The MSSD consists of two components:
+## Database Design and File Formats
+The MSSD is a geospatial database that consists of two separate components:
 1) A 3D geometrical model of seismogenic sources in Malawi
-2) The mapped trace of each source, with associated source attributes (### Data Table).
+2) The mapped trace of each source in a GIS vector format, with associated source attributes (Data Table).
 
-## Data Format
-The MSSD is a geospatial database containing a collective of seismogenic source traces in GIS vector format. 
+Each section, fault and multi-fault is associated with a source in the 3D geometrical model that is listed in a  comma-separated-values (csv) file. The sections, faults and multi-faults are described in separate geospatial files that describe the map-view geometry and metadata that control each sources earthquake magnitude and frequency for seismic hazard purposes. 
+  
+The sections, faults and multi-faults in this database are provided in a variety of GIS vector file formats. [GeoJSON] is the version of record, and any changes should be made in this version before they are converted to other file formats using the script in the repository that uses the [GDAL] tool [ogr2ogr] (the script is adapted from https://github.com/cossatot/central_am_carib_faults/blob/master/convert.sh - we thank Richard Styron for making this publicly available). The other versions available are [ESRI ShapeFile], [KML], [GMT], and [GeoPackage].
 
 ### Data Table
 Attribute                      | Type        | Description                | Notes
@@ -44,12 +46,6 @@ ri_upper                       | real number | Upper recurrence interval estimat
 MAFD_id                        | list        | List of integers of ID of equivalent structres in the Malawi Active Fault database | Multi-falut sources have multiple ID's.
   
 List and brief description of fault geometry, slip rate estimates and earthquake source attributes in the MSSD. Attributes are assigned to each rupture source, with section, fault, and multi-fault ruptures stored in separate files.
-
-## File Formats
-
-Each section, fault and multi-fault is associated with a source in the separate 3D geometrical model that is listed as a separate comma-separated-values (csv) file. The database consists of three separate geospatial files that describe the sections, faults and multi-faults that make up the MSSD. 
-  
-The sections, faults and multi-faults in this database are provided in a variety of GIS vector file formats. [GeoJSON] is the version of record, and any changes should be made in this version before they are converted to other file formats using the script in the repository that uses the [GDAL] tool [ogr2ogr] (the script is adapted from https://github.com/cossatot/central_am_carib_faults/blob/master/convert.sh - we thank Richard Styron for making this publicly available). The other versions available are [ESRI ShapeFile], [KML], [GMT], and [GeoPackage].
 
   
 ## Version Control
