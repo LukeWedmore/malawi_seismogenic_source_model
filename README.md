@@ -20,7 +20,15 @@ strike                         | integer     | Azimuth of straigth line between 
 dip (&delta;)                  | integer     |                            | When no previous measurements are available, a best estimate of 53° is assigned, and no uncertainty is explored for dip in the source geometry. However, in the slip rate calculations, this is randomly varied between 45° and 65°. <BR><BR> No dip is assigned for multi-fault sources, as different participating faults may have different dips.
 dip_dir                        | string      | Dip direction: compass quadrant that the fault dips in. | 
 slip_type                      | string      | source kinematics (e.g. normal, thrust etc). | All sources in the MSSD are assumed to be normal faults.
-
+slip_rate                      | real number | Mean value from repeating Eq. 2 in Monte Carlo simulations (see manuscript for details). | In mm yr<sup>-1</sup>. All sources in the MSSD are assumed to be normal so is equivalent to dip-slip rate. <BR><BR>Reported to two significant figures.
+s_rate_err                     | real number | Slip rate error: 1&sigma; error from Monte Carlo slip rate simlations. | 
+mag_lower                      | real number | Lower magnitude estimate. <BR><BR>Calculated from Leonard (2010) scaling relationship (Eq. 4) for L<sub>s</sub> or A<sub>s</sub>, and using lower estimates of C<sub>1</sub> and C<sub>2</sub> constants in Leonard (2010). | Reported to one decimal place.
+mag_med                        | real number | Mean magnitude estimate. <BR><BR>Calculated from Leonard (2010) scaling relationship (Eq. 4) for L<sub>s</sub> or A<sub>s</sub>, and using mean estimates of C<sub>1</sub> and C<sub>2</sub> constants in Leonard (2010). | Reported to one decimal place.
+mag_upper                      | real number | Upper magnitude estimate. <BR><BR>Calculated from Leonard (2010) scaling relationship (Eq. 4) for L<sub>s</sub> or A<sub>s</sub>, and using upper estimates of C<sub>1</sub> and C<sub>2</sub> constants in Leonard (2010). | Reported to one decimal place.
+ri_lower                       | real number | Lower recurrence interval estimate. <BR><BR>Calculated as 1&sigma; below the mean of the Monte Carlo simulations (assuming a log normal distribution). | Reported to two significant figures.
+ri_med                         | real number | Mean recurrence interval. <BR><BR>Mean value from log of recurrence interval Monte Carlo simulations. | Reported to two significant figures.
+ri_upper                       | real number | Upper recurrence interval estimate. <BR><BR>Calculated as 1&sigma; above the mean of the Monte Carlo simulations (assuming a log normal distribution). | Reported to two significant figures.
+MAFD_id                        | list        | List of integers of ID of equivalent structres in the Malawi Active Fault database | Multi-falut sources have multiple ID's.
   
 
 
