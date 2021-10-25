@@ -1,9 +1,20 @@
-# Malawi Seismic Source Database - MSSD
+# Malawi Seismogenic Source Database - MSSD
 
+The Malawi Seismogenic Source Database (MSSD) is a geospatial database that documents the geometry, slip rate and seismogenic properties (ie earthquake magnitude and frequency) of active faults in Malawi. Each geospatial feature represents a potential earthquake rupture of 'source' and is classified based on its geometry into one of three types:
+- section
+- fault
+- multi-fault
+Source types are mutually exclusice, and so if incorporated into a PSHA, they should be assigned relative weightings.
+
+The MSSD is the first seismogenic source database in central and northern Malawi, and represents an update of the South Malawi Seismogenic Source Database (SMSSD; Williams et al., 2021) because it incorporates new active fault traces (Kolawole et al., 2021; Williams et al., submitted - MAFD), new geodetic data and a statistical treatment of uncertainty, within a logic tree approach.
 
 ## Citation
 Prior to publication please cite this database as:
 
+## Database Design
+The MSSD consists of two components:
+1) A 3D geometrical model of seismogenic sources in Malawi
+2) The mapped trace of each source, with associated source attributes (### Data Table).
 
 ## Data Format
 
