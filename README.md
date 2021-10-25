@@ -9,6 +9,7 @@ Prior to publication please cite this database as:
 
 ### Data Table
 Attribute                      | Type    | Description                | Notes
+-------------------------------|---------|----------------------------|-------------------------------------------------------------------------------------------
 MSSD_ID                        | integer | Unique numerical reference ID for each seismic source | ID 00-300 is section rupture
                                |         |                            | ID 300-500 is fault rupture
                                |         |                            | ID 600-700 is a multi-fault rupture
