@@ -7,11 +7,13 @@ The Malawi Seismogenic Source Database (MSSD) is a geospatial database that docu
 
 Source types are mutually exclusice, and so if incorporated into a PSHA, they should be assigned relative weightings.
 
-The MSSD is the first seismogenic source database in central and northern Malawi, and represents an update of the South Malawi Seismogenic Source Database (SMSSD; Williams et al., 2021) because it incorporates new active fault traces (Kolawole et al., 2021; Williams et al., submitted - MAFD), new geodetic data and a statistical treatment of uncertainty, within a logic tree approach.
+The MSSD is the first seismogenic source database in central and northern Malawi, and represents an update of the South Malawi Seismogenic Source Database (SMSSD; Williams et al., 2021) because it incorporates new active fault traces (Kolawole et al., 2021; Williams et al., submitted - [MAFD]), new geodetic data (Wedmore et al., 2021) and a statistical treatment of uncertainty, within a logic tree approach.
 
 ## Citation
-Prior to publication please cite this database as:
+Prior to publication please cite this database using the following two references:
 Williams, J. N., Wedmore, L. N .J., Fagereng, Å., Werner, M. J., Biggs, J., Mdala, H., Kolawole, F., Shillington, D. J., Dulanya, Z., Mphepo, F., Chindandali, P., Wright, L. J. M.., Scholz, C. A. Geological and geodetic constraints on the seismic hazard of Malawi's active faults: the Malawi Seismogenic Source Database (MSSD). _Manuscript submitted to Natural Hazards and Earth System Sciences_
+
+Williams, J. N., Wedmore, L. N .J., Fagereng, Å., Werner, M. J., Biggs, J., Mdala, H., Kolawole, F., Shillington, D. J., Dulanya, Z., Mphepo, F., Chindandali, P., Wright, L. J. M.., Scholz, C. A. The Malawi Seismogenic Source Database.
 
 ## Database Design and File Formats
 The MSSD is a geospatial database that consists of two separate components:
@@ -43,7 +45,7 @@ mag_upper                      | real number | Upper magnitude estimate. <BR><BR
 ri_lower                       | real number | Lower recurrence interval estimate. <BR><BR>Calculated as 1&sigma; below the mean of the Monte Carlo simulations (assuming a log normal distribution). | Reported to two significant figures.
 ri_med                         | real number | Mean recurrence interval. <BR><BR>Mean value from log of recurrence interval Monte Carlo simulations. | Reported to two significant figures.
 ri_upper                       | real number | Upper recurrence interval estimate. <BR><BR>Calculated as 1&sigma; above the mean of the Monte Carlo simulations (assuming a log normal distribution). | Reported to two significant figures.
-MAFD_id                        | list        | List of integers of ID of equivalent structres in the Malawi Active Fault database | Multi-falut sources have multiple ID's.
+MAFD_id                        | list        | List of integers of ID of equivalent structres in the [Malawi Active Fault Database] | Multi-fault sources have multiple ID's.
   
 List and brief description of fault geometry, slip rate estimates and earthquake source attributes in the MSSD. Attributes are assigned to each rupture source, with section, fault, and multi-fault ruptures stored in separate files. For equations used we refer people to the original manuscript.
 
@@ -56,10 +58,15 @@ It is the intention that future versions of this database will include fault sli
   
   
 ### References
-Leonard, M. (2010). Earthquake fault scaling: Self-consistent relating of rupture length, width, average displacement, and moment release. _Bulletin of the Seismological Society of America_, 100(5A), 1971-1988. https://doi.org/10.1785/0120090189
+  Kolawole, F., Firkins, M. C., Al Wahaibi, T. S., Atekwana, E. A., & Soreghan, M. J. (2021a). Rift Interaction Zones and the Stages of Rift Linkage in Active Segmented Continental Rift Systems. _Basin Research_. https://doi.org/10.1111/bre.12592
+  Leonard, M. (2010). Earthquake fault scaling: Self-consistent relating of rupture length, width, average displacement, and moment release. _Bulletin of the Seismological Society of America_, 100(5A), 1971-1988. https://doi.org/10.1785/0120090189
+  Wedmore, L. N. J., Biggs, J., Floyd, M., Fagereng, Å., Mdala, H., Chindandali, P. R. N., et al. (2021). Geodetic constraints on cratonic microplates and broad strain during rifting of thick Southern Africa lithosphere. _Geophysical Research Letters_. 48(17), e2021GL093785. https://doi.org/10.1029/2021GL093785
+  Williams, J. N., Mdala, H., Fagereng, Å., Wedmore, L. N. J., Biggs, J., Dulany, Z., et al. (2021). A systems-based approach to parameterise seismic hazard in regions with little historical or instrumental seismicity: Active fault and seismogenic source databases for southern Malawi. Solid Earth, 12(1), 187–217. https://doi.org/10.5194/se-12-187-2021
+
 
   
 [MAFD]: https://doi.org/10.5281/zenodo.5507190
+[Malawi Active Fault Database]: https://doi.org/10.5281/zenodo.5507190
 [GeoJSON]: http://geojson.org/
 [GeoPackage]: https://www.geopackage.org/
 [ESRI ShapeFile]: https://support.esri.com/en/white-paper/279
@@ -69,3 +76,4 @@ Leonard, M. (2010). Earthquake fault scaling: Self-consistent relating of ruptur
 [GDAL]: https://gdal.org/
 [KML]: https://earth.google.com
 [GMT]: https://www.generic-mapping-tools.org/
+[Wedmore et al., 2021]: https://doi.org/10.1029/2021GL093785
