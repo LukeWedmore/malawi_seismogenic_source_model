@@ -58,10 +58,14 @@ It is the intention that future versions of this database will include fault sli
   
   
 ### References
-Kolawole, F., Firkins, M. C., Al Wahaibi, T. S., Atekwana, E. A., & Soreghan, M. J. (2021a). Rift Interaction Zones and the Stages of Rift Linkage in Active Segmented Continental Rift Systems. _Basin Research_. https://doi.org/10.1111/bre.12592
-Leonard, M. (2010). Earthquake fault scaling: Self-consistent relating of rupture length, width, average displacement, and moment release. _Bulletin of the Seismological Society of America_, 100(5A), 1971-1988. https://doi.org/10.1785/0120090189
-Wedmore, L. N. J., Biggs, J., Floyd, M., Fagereng, Å., Mdala, H., Chindandali, P. R. N., et al. (2021). Geodetic constraints on cratonic microplates and broad strain during rifting of thick Southern Africa lithosphere. _Geophysical Research Letters_. 48(17), e2021GL093785. https://doi.org/10.1029/2021GL093785
-Williams, J. N., Mdala, H., Fagereng, Å., Wedmore, L. N. J., Biggs, J., Dulany, Z., et al. (2021). A systems-based approach to parameterise seismic hazard in regions with little historical or instrumental seismicity: Active fault and seismogenic source databases for southern Malawi. Solid Earth, 12(1), 187–217. https://doi.org/10.5194/se-12-187-2021
+
+  Kolawole, F., Firkins, M. C., Al Wahaibi, T. S., Atekwana, E. A., & Soreghan, M. J. (2021a). Rift Interaction Zones and the Stages of Rift Linkage in Active Segmented Continental Rift Systems. _Basin Research_. https://doi.org/10.1111/bre.12592
+
+  Leonard, M. (2010). Earthquake fault scaling: Self-consistent relating of rupture length, width, average displacement, and moment release. _Bulletin of the Seismological Society of America_, 100(5A), 1971-1988. https://doi.org/10.1785/0120090189
+
+  Wedmore, L. N. J., Biggs, J., Floyd, M., Fagereng, Å., Mdala, H., Chindandali, P. R. N., et al. (2021). Geodetic constraints on cratonic microplates and broad strain during rifting of thick Southern Africa lithosphere. _Geophysical Research Letters_. 48(17), e2021GL093785. https://doi.org/10.1029/2021GL093785
+
+  Williams, J. N., Mdala, H., Fagereng, Å., Wedmore, L. N. J., Biggs, J., Dulany, Z., et al. (2021). A systems-based approach to parameterise seismic hazard in regions with little historical or instrumental seismicity: Active fault and seismogenic source databases for southern Malawi. Solid Earth, 12(1), 187–217. https://doi.org/10.5194/se-12-187-2021
 
 
   
