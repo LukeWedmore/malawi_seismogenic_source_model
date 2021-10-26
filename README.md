@@ -15,10 +15,10 @@ Williams, J. N., Wedmore, L. N .J., Fagereng, Å., Werner, M. J., Biggs, J., Mda
 
 ## Database Design and File Formats
 The MSSD is a geospatial database that consists of two separate components:
-1) A 3D geometrical model of seismogenic sources in Malawi
+1) A 3D geometrical model of fault seismogenic sources in Malawi
 2) The mapped trace of each source in a GIS vector format, with associated source attributes (Data Table).
 
-Each section, fault and multi-fault is associated with a source in the 3D geometrical model that is listed in a  comma-separated-values (csv) file. The sections, faults and multi-faults are described in separate geospatial files that describe the map-view geometry and metadata that control each sources earthquake magnitude and frequency for seismic hazard purposes. 
+Each fault is associated with a source in the 3D geometrical model that is listed in a  comma-separated-values (csv) file. The sections, faults and multi-faults that make up the individual seismogenic sources are described in separate geospatial files that describe the map-view geometry and metadata that control each sources earthquake magnitude and frequency for seismic hazard purposes. 
   
 The sections, faults and multi-faults in this database are provided in a variety of GIS vector file formats. [GeoJSON] is the version of record, and any changes should be made in this version before they are converted to other file formats using the script in the repository that uses the [GDAL] tool [ogr2ogr] (the script is adapted from https://github.com/cossatot/central_am_carib_faults/blob/master/convert.sh - we thank Richard Styron for making this publicly available). The other versions available are [ESRI ShapeFile], [KML], [GMT], and [GeoPackage].
 
