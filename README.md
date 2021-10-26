@@ -45,7 +45,7 @@ mag_upper                      | real number | Upper magnitude estimate. <BR><BR
 ri_lower                       | real number | Lower recurrence interval estimate. <BR><BR>Calculated as 1&sigma; below the mean of the Monte Carlo simulations (assuming a log normal distribution). | Reported to two significant figures.
 ri_med                         | real number | Mean recurrence interval. <BR><BR>Mean value from log of recurrence interval Monte Carlo simulations. | Reported to two significant figures.
 ri_upper                       | real number | Upper recurrence interval estimate. <BR><BR>Calculated as 1&sigma; above the mean of the Monte Carlo simulations (assuming a log normal distribution). | Reported to two significant figures.
-MAFD_id                        | list        | List of integers of ID of equivalent structres in the [Malawi Active Fault Database] | Multi-fault sources have multiple ID's.
+MAFD_id                        | list        | List of integers of ID of equivalent structures in the [Malawi Active Fault Database] | Multi-fault sources have multiple ID's.
   
 List and brief description of fault geometry, slip rate estimates and earthquake source attributes in the MSSD. Attributes are assigned to each rupture source, with section, fault, and multi-fault ruptures stored in separate files. For equations used we refer people to the original manuscript.
 
