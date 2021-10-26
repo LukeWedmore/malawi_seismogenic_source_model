@@ -45,7 +45,7 @@ ri_med                         | real number | Mean recurrence interval. <BR><BR
 ri_upper                       | real number | Upper recurrence interval estimate. <BR><BR>Calculated as 1&sigma; above the mean of the Monte Carlo simulations (assuming a log normal distribution). | Reported to two significant figures.
 MAFD_id                        | list        | List of integers of ID of equivalent structres in the Malawi Active Fault database | Multi-falut sources have multiple ID's.
   
-List and brief description of fault geometry, slip rate estimates and earthquake source attributes in the MSSD. Attributes are assigned to each rupture source, with section, fault, and multi-fault ruptures stored in separate files.
+List and brief description of fault geometry, slip rate estimates and earthquake source attributes in the MSSD. Attributes are assigned to each rupture source, with section, fault, and multi-fault ruptures stored in separate files. For equations used we refer people to the original manuscript.
 
   
 ## Version Control
@@ -56,6 +56,9 @@ It is the intention that future versions of this database will include fault sli
   
   
 ### References
+Leonard, M. (2010). Earthquake fault scaling: Self-consistent relating of rupture length, width, average displacement, and moment release. _Bulletin of the Seismological Society of America_, 100(5A), 1971-1988. https://doi.org/10.1785/0120090189
+
+  
 [MAFD]: https://doi.org/10.5281/zenodo.5507190
 [GeoJSON]: http://geojson.org/
 [GeoPackage]: https://www.geopackage.org/
