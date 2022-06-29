@@ -1,4 +1,4 @@
-# Malawi Seismogenic Source MODEL - MSSM
+# Malawi Seismogenic Source Model - MSSM
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5599617.svg)](https://doi.org/10.5281/zenodo.5599617)
 
