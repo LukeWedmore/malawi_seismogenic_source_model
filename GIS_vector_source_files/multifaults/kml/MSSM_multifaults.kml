@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MSSM_multifaults" id="MSSM_multifaults">
+	<SimpleField name="MSSM_id" type="int"></SimpleField>
+	<SimpleField name="class" type="string"></SimpleField>
+	<SimpleField name="basin" type="string"></SimpleField>
+	<SimpleField name="length" type="float"></SimpleField>
+	<SimpleField name="area" type="int"></SimpleField>
+	<SimpleField name="slip_rate" type="float"></SimpleField>
+	<SimpleField name="s_rate_err" type="float"></SimpleField>
+	<SimpleField name="mag_lower" type="float"></SimpleField>
+	<SimpleField name="mag_int" type="float"></SimpleField>
+	<SimpleField name="mag_upper" type="float"></SimpleField>
+	<SimpleField name="ri_lower" type="float"></SimpleField>
+	<SimpleField name="ri_int" type="float"></SimpleField>
+	<SimpleField name="ri_upper" type="float"></SimpleField>
+	<SimpleField name="MAFD_id" type="string"></SimpleField>
+</Schema>
+<Folder><name>MSSM_multifaults</name>
+  <Placemark>
+	<name>Kaporo-1-Mbiri-2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">621</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">95.9</SimpleData>
+		<SimpleData name="area">3516</SimpleData>
+		<SimpleData name="slip_rate">0.251</SimpleData>
+		<SimpleData name="s_rate_err">0.252</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.6</SimpleData>
+		<SimpleData name="mag_upper">8</SimpleData>
+		<SimpleData name="ri_lower">9110</SimpleData>
+		<SimpleData name="ri_int">32600</SimpleData>
+		<SimpleData name="ri_upper">1.43e+16</SimpleData>
+		<SimpleData name="MAFD_id">109, 111</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.8622801832288,-9.73495714461111 33.9152227939923,-9.81025205735082 34.0038660821214,-10.0579050234953 34.0913984878848,-10.1740380166652</coordinates></LineString><LineString><coordinates>34.0705230831739,-10.1520782105462 34.1179832551824,-10.2433701576727 34.2234615518843,-10.3794231341787 34.2732532296369,-10.4575173246961</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Liwawadzi-Malombe</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">603</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="length">114.6</SimpleData>
+		<SimpleData name="area">2420</SimpleData>
+		<SimpleData name="slip_rate">0.044</SimpleData>
+		<SimpleData name="s_rate_err">0.035</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.4</SimpleData>
+		<SimpleData name="mag_upper">7.7</SimpleData>
+		<SimpleData name="ri_lower">42600</SimpleData>
+		<SimpleData name="ri_int">157000</SimpleData>
+		<SimpleData name="ri_upper">3.51e+15</SimpleData>
+		<SimpleData name="MAFD_id">11, 79</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.0023783239246,-15.3766861388681 35.0105034899343,-15.2992545180288 35.0267666277918,-15.2865656168956 35.0103188220959,-15.0783380567456</coordinates></LineString><LineString><coordinates>35.1016060403855,-15.1679765989496 35.0924937861353,-15.0794103007854 35.1806906487114,-14.9604302781852 35.1504989378452,-14.8861901217219 35.1613886865051,-14.677000026586 35.1769479832568,-14.6716319975681 35.1558311624461,-14.4846496224443</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Chiloli-Liwonde National Park</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">604</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="length">26.2</SimpleData>
+		<SimpleData name="area">404</SimpleData>
+		<SimpleData name="slip_rate">0.043</SimpleData>
+		<SimpleData name="s_rate_err">0.031</SimpleData>
+		<SimpleData name="mag_lower">6.2</SimpleData>
+		<SimpleData name="mag_int">6.6</SimpleData>
+		<SimpleData name="mag_upper">7.1</SimpleData>
+		<SimpleData name="ri_lower">16900</SimpleData>
+		<SimpleData name="ri_int">57700</SimpleData>
+		<SimpleData name="ri_upper">605000000000000</SimpleData>
+		<SimpleData name="MAFD_id">98, 101</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.3465943582766,-14.7560816947031 35.3667847191548,-14.8975927511217</coordinates></LineString><LineString><coordinates>35.358207996072,-14.6053539789392 35.3785492398049,-14.6968853689963</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Karonga-1-Katesula-1-Mbiri-1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">620</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">95.2</SimpleData>
+		<SimpleData name="area">2060</SimpleData>
+		<SimpleData name="slip_rate">0.255</SimpleData>
+		<SimpleData name="s_rate_err">0.255</SimpleData>
+		<SimpleData name="mag_lower">6.9</SimpleData>
+		<SimpleData name="mag_int">7.3</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">6730</SimpleData>
+		<SimpleData name="ri_int">24500</SimpleData>
+		<SimpleData name="ri_upper">8.71e+15</SimpleData>
+		<SimpleData name="MAFD_id">22, 23, 111</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.8396623001898,-9.8940207661952 33.8266619566592,-9.83775560528219 33.8187950249565,-9.83149835936299 33.8145934010915,-9.78011251944934 33.8188993662943,-9.77740711897312 33.8277904627951,-9.71890829748057</coordinates></LineString><LineString><coordinates>33.8731159693828,-9.91107325001142 33.9620484647248,-10.0737826960232</coordinates></LineString><LineString><coordinates>33.9521729267716,-10.0855586077255 34.1179832551824,-10.2433701576727 34.2234615518843,-10.3794231341787 34.2732532296369,-10.4575173246961</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>South Basin Fault 2a-11</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">606</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="length">108.1</SimpleData>
+		<SimpleData name="area">3211</SimpleData>
+		<SimpleData name="slip_rate">0.077</SimpleData>
+		<SimpleData name="s_rate_err">0.08</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.5</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">28200</SimpleData>
+		<SimpleData name="ri_int">104000</SimpleData>
+		<SimpleData name="ri_upper">4.05e+15</SimpleData>
+		<SimpleData name="MAFD_id">69, 107</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.406585769383,-13.1074881886102 34.4502073403084,-12.846168002696 34.5365058952506,-12.5718839158353</coordinates></LineString><LineString><coordinates>34.4731868278593,-13.1434746733289 34.5138612518547,-13.5663923892611</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>South Basin Fault 5-13a</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">608</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="length">268.8</SimpleData>
+		<SimpleData name="area">11029</SimpleData>
+		<SimpleData name="slip_rate">0.524</SimpleData>
+		<SimpleData name="s_rate_err">0.234</SimpleData>
+		<SimpleData name="mag_lower">7.8</SimpleData>
+		<SimpleData name="mag_int">8.1</SimpleData>
+		<SimpleData name="mag_upper">8.4</SimpleData>
+		<SimpleData name="ri_lower">7720</SimpleData>
+		<SimpleData name="ri_int">19900</SimpleData>
+		<SimpleData name="ri_upper">6.27e+16</SimpleData>
+		<SimpleData name="MAFD_id">38, 108</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4296088888714,-12.157151696718 34.6463567128924,-12.5323158233357 34.7464879183643,-13.082856923596 34.7963384783134,-13.5316017893921</coordinates></LineString><LineString><coordinates>34.8426511745127,-13.3947340392436 34.8320851293216,-14.3829401935256</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>South Basin Fault 5-13b</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">609</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="length">247.9</SimpleData>
+		<SimpleData name="area">10060</SimpleData>
+		<SimpleData name="slip_rate">0.524</SimpleData>
+		<SimpleData name="s_rate_err">0.234</SimpleData>
+		<SimpleData name="mag_lower">7.7</SimpleData>
+		<SimpleData name="mag_int">8</SimpleData>
+		<SimpleData name="mag_upper">8.4</SimpleData>
+		<SimpleData name="ri_lower">7310</SimpleData>
+		<SimpleData name="ri_int">18600</SimpleData>
+		<SimpleData name="ri_upper">5.77e+16</SimpleData>
+		<SimpleData name="MAFD_id">38, 108</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4296088888714,-12.157151696718 34.6463567128924,-12.5323158233357 34.7464879183643,-13.082856923596 34.7963384783134,-13.5316017893921</coordinates></LineString><LineString><coordinates>34.8426511745127,-13.3947340392436 34.8324020635696,-13.7852931420023 34.7104146627374,-13.9566469990765 34.7128369671111,-14.1566761352041</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>South Basin Fault 5-13c</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">610</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="length">226.6</SimpleData>
+		<SimpleData name="area">9931</SimpleData>
+		<SimpleData name="slip_rate">0.528</SimpleData>
+		<SimpleData name="s_rate_err">0.233</SimpleData>
+		<SimpleData name="mag_lower">7.8</SimpleData>
+		<SimpleData name="mag_int">8</SimpleData>
+		<SimpleData name="mag_upper">8.4</SimpleData>
+		<SimpleData name="ri_lower">7230</SimpleData>
+		<SimpleData name="ri_int">18800</SimpleData>
+		<SimpleData name="ri_upper">5.72e+16</SimpleData>
+		<SimpleData name="MAFD_id">38, 108</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4296088888714,-12.157151696718 34.6463567128924,-12.5323158233357 34.7464879183643,-13.082856923596 34.7963384783134,-13.5316017893921</coordinates></LineString><LineString><coordinates>34.8426511745127,-13.3947340392436 34.8235529129595,-13.8329352297175 34.9234842061984,-13.970210825712</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Mtumba-Elephant Marsh</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">602</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="length">72.6</SimpleData>
+		<SimpleData name="area">2148</SimpleData>
+		<SimpleData name="slip_rate">0.077</SimpleData>
+		<SimpleData name="s_rate_err">0.064</SimpleData>
+		<SimpleData name="mag_lower">6.9</SimpleData>
+		<SimpleData name="mag_int">7.4</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">22600</SimpleData>
+		<SimpleData name="ri_int">87200</SimpleData>
+		<SimpleData name="ri_upper">5.51e+15</SimpleData>
+		<SimpleData name="MAFD_id">5, 7</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.6533689887166,-15.8968930857301 34.8910234324797,-16.1727886131238</coordinates></LineString><LineString><coordinates>34.889980691889,-16.2056711044235 35.1045809236045,-16.4215496365872</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Central Basin Fault 7-8</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">615</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="length">36.4</SimpleData>
+		<SimpleData name="area">700</SimpleData>
+		<SimpleData name="slip_rate">0.133</SimpleData>
+		<SimpleData name="s_rate_err">0.125</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.4</SimpleData>
+		<SimpleData name="ri_lower">7280</SimpleData>
+		<SimpleData name="ri_int">26600</SimpleData>
+		<SimpleData name="ri_upper">3.19e+15</SimpleData>
+		<SimpleData name="MAFD_id">65, 66</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4625615581367,-11.0037914970128 34.4657565293906,-10.9371962557929</coordinates></LineString><LineString><coordinates>34.5025260068902,-10.9189172670064 34.4717904368188,-10.6582783144381</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Central Basin Fault 5-27</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">614</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="length">74.9</SimpleData>
+		<SimpleData name="area">2329</SimpleData>
+		<SimpleData name="slip_rate">0.109</SimpleData>
+		<SimpleData name="s_rate_err">0.11</SimpleData>
+		<SimpleData name="mag_lower">7</SimpleData>
+		<SimpleData name="mag_int">7.4</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">16600</SimpleData>
+		<SimpleData name="ri_int">60100</SimpleData>
+		<SimpleData name="ri_upper">8.48e+15</SimpleData>
+		<SimpleData name="MAFD_id">57, 61 </SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5255640487794,-11.8630056151484 34.6659844038739,-11.6235208279796</coordinates></LineString><LineString><coordinates>34.5818358977713,-11.7330852642299 34.725531951317,-11.3580753799877</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>North Basin Fault 4a-15a</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">626</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">54.3</SimpleData>
+		<SimpleData name="area">1363</SimpleData>
+		<SimpleData name="slip_rate">0.267</SimpleData>
+		<SimpleData name="s_rate_err">0.166</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7.2</SimpleData>
+		<SimpleData name="mag_upper">7.7</SimpleData>
+		<SimpleData name="ri_lower">5270</SimpleData>
+		<SimpleData name="ri_int">49800</SimpleData>
+		<SimpleData name="ri_upper">5.98e+15</SimpleData>
+		<SimpleData name="MAFD_id">75, 110</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.035849706479,-9.8617409206148 34.1050715842719,-9.93495973498359</coordinates></LineString><LineString><coordinates>34.1401342350418,-9.98269724479127 34.2056577167709,-10.2345569749766 34.2491353807113,-10.2939734269001 34.2375192596294,-10.3495836512753</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>North Basin Fault 1-2-8</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">623</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">69.6</SimpleData>
+		<SimpleData name="area">2061</SimpleData>
+		<SimpleData name="slip_rate">0.372</SimpleData>
+		<SimpleData name="s_rate_err">0.168</SimpleData>
+		<SimpleData name="mag_lower">6.9</SimpleData>
+		<SimpleData name="mag_int">7.3</SimpleData>
+		<SimpleData name="mag_upper">7.8</SimpleData>
+		<SimpleData name="ri_lower">4500</SimpleData>
+		<SimpleData name="ri_int">18900</SimpleData>
+		<SimpleData name="ri_upper">2.61e+16</SimpleData>
+		<SimpleData name="MAFD_id">70, 71, 72</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1001737672534,-9.62452587173544 34.1586829516956,-9.81193088652434</coordinates></LineString><LineString><coordinates>34.2168614966229,-9.80203318615055 34.3142480093987,-10.0082338532821</coordinates></LineString><LineString><coordinates>34.3251299093846,-9.95834954087939 34.3644024265098,-10.1599663524498</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>South Basin Fault 2b-11</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">607</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="length">108.1</SimpleData>
+		<SimpleData name="area">3211</SimpleData>
+		<SimpleData name="slip_rate">0.077</SimpleData>
+		<SimpleData name="s_rate_err">0.079</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.5</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">28700</SimpleData>
+		<SimpleData name="ri_int">108000</SimpleData>
+		<SimpleData name="ri_upper">3.98e+15</SimpleData>
+		<SimpleData name="MAFD_id">69, 107</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.406585769383,-13.1074881886102 34.4502073403084,-12.846168002696 34.5365058952506,-12.5718839158353</coordinates></LineString><LineString><coordinates>34.4731868278593,-13.1434746733289 34.4864008344846,-13.568085108926</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Lipichili-All</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">617</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="length">97.5</SimpleData>
+		<SimpleData name="area">3453</SimpleData>
+		<SimpleData name="slip_rate">0.13</SimpleData>
+		<SimpleData name="s_rate_err">0.126</SimpleData>
+		<SimpleData name="mag_lower">6.9</SimpleData>
+		<SimpleData name="mag_int">7.6</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">17100</SimpleData>
+		<SimpleData name="ri_int">59900</SimpleData>
+		<SimpleData name="ri_upper">1.49e+16</SimpleData>
+		<SimpleData name="MAFD_id">48, 55, 64</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4566850379428,-11.0759056680725 34.3587296002146,-11.3109718906903</coordinates></LineString><LineString><coordinates>34.3831411377672,-11.2548654974293 34.3665538846715,-11.3919830221036</coordinates></LineString><LineString><coordinates>34.3963539452311,-10.6547810949614 34.4435792771092,-10.7715005227957</coordinates></LineString><LineString><coordinates>34.4619160045838,-10.7188750222439 34.4235998934999,-10.9435347344915</coordinates></LineString><LineString><coordinates>34.4236276002582,-10.9435888539072 34.4568014806924,-11.075389755748</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>North Basin Fault 4b-15b</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">627</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">62.7</SimpleData>
+		<SimpleData name="area">1732</SimpleData>
+		<SimpleData name="slip_rate">0.265</SimpleData>
+		<SimpleData name="s_rate_err">0.166</SimpleData>
+		<SimpleData name="mag_lower">6.8</SimpleData>
+		<SimpleData name="mag_int">7.3</SimpleData>
+		<SimpleData name="mag_upper">7.8</SimpleData>
+		<SimpleData name="ri_lower">5930</SimpleData>
+		<SimpleData name="ri_int">56900</SimpleData>
+		<SimpleData name="ri_upper">7.62e+15</SimpleData>
+		<SimpleData name="MAFD_id">75, 110</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.035849706479,-9.8617409206148 34.1050715842719,-9.93495973498359</coordinates></LineString><LineString><coordinates>34.1401342350418,-9.98269724479127 34.2056577167709,-10.2345569749766 34.2688218353275,-10.3215120931749</coordinates></LineString><LineString><coordinates>34.2688952845943,-10.3216112699205 34.253369575544,-10.4197902614048</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>South Basin Fault 7a-12a</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">611</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="length">108</SimpleData>
+		<SimpleData name="area">3262</SimpleData>
+		<SimpleData name="slip_rate">0.079</SimpleData>
+		<SimpleData name="s_rate_err">0.081</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.5</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">27400</SimpleData>
+		<SimpleData name="ri_int">99600</SimpleData>
+		<SimpleData name="ri_upper">4.26e+15</SimpleData>
+		<SimpleData name="MAFD_id">45, 87</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2097714202744,-11.9476154918304 34.3226313109026,-11.7875831766697</coordinates></LineString><LineString><coordinates>34.3006301376163,-12.2269531664274 34.2103582075515,-11.9474140509319</coordinates></LineString><LineString><coordinates>34.3490359300731,-12.2201562417106 34.4549098025406,-12.6970776998993</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Sani-Chombo-Nkhotakota</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">605</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="length">50.5</SimpleData>
+		<SimpleData name="area">1207</SimpleData>
+		<SimpleData name="slip_rate">0.08</SimpleData>
+		<SimpleData name="s_rate_err">0.081</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.6</SimpleData>
+		<SimpleData name="ri_lower">15800</SimpleData>
+		<SimpleData name="ri_int">58100</SimpleData>
+		<SimpleData name="ri_upper">3.34e+15</SimpleData>
+		<SimpleData name="MAFD_id">25, 26, 30</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.218245478932,-12.8177013105906 34.2700300137508,-12.8980732846796</coordinates></LineString><LineString><coordinates>34.286006407507,-13.0141047506082 34.314214005457,-13.102027159514 34.3251698952324,-13.1791583176921 34.3370181955441,-13.28615245838</coordinates></LineString><LineString><coordinates>34.2943348103548,-12.8896728823007 34.2950281796914,-12.9740912446963</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Panga</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">601</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="length">63.7</SimpleData>
+		<SimpleData name="area">1218</SimpleData>
+		<SimpleData name="slip_rate">0.078</SimpleData>
+		<SimpleData name="s_rate_err">0.064</SimpleData>
+		<SimpleData name="mag_lower">6.8</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">16800</SimpleData>
+		<SimpleData name="ri_int">63300</SimpleData>
+		<SimpleData name="ri_upper">3.18e+15</SimpleData>
+		<SimpleData name="MAFD_id">14, 15, 16, 17</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.8291722212214,-16.4100160069196 34.6243129390527,-16.2497742017891</coordinates></LineString><LineString><coordinates>34.824732053808,-16.4818649720656 34.6913949157959,-16.3921844598273</coordinates></LineString><LineString><coordinates>34.9108783123161,-16.5539148989172 34.8139028560157,-16.5016579791443</coordinates></LineString><LineString><coordinates>34.9457118484773,-16.606323944778 34.897726563646,-16.5741576805039</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Usisya</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">612</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="length">214.2</SimpleData>
+		<SimpleData name="area">8078</SimpleData>
+		<SimpleData name="slip_rate">1.263</SimpleData>
+		<SimpleData name="s_rate_err">0.582</SimpleData>
+		<SimpleData name="mag_lower">7.6</SimpleData>
+		<SimpleData name="mag_int">7.9</SimpleData>
+		<SimpleData name="mag_upper">8.3</SimpleData>
+		<SimpleData name="ri_lower">2700</SimpleData>
+		<SimpleData name="ri_int">7040</SimpleData>
+		<SimpleData name="ri_upper">3.37e+17</SimpleData>
+		<SimpleData name="MAFD_id">29, 44, 59, 63, 67, 68, </SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4249002703729,-11.747490186831 34.26058052606,-11.3164425195045 34.23087929043,-11.303827589787 34.1790969585749,-10.7049915308759</coordinates></LineString><LineString><coordinates>34.2863200079045,-10.5993270036977 34.2907240016595,-10.4650967526258</coordinates></LineString><LineString><coordinates>34.3363090417521,-10.9059357822064 34.3067160580733,-10.5401893815932</coordinates></LineString><LineString><coordinates>34.3083316187072,-10.5180929421399 34.3442123522909,-10.4034171766563</coordinates></LineString><LineString><coordinates>34.3693488217517,-10.48293371522 34.4166525679722,-10.3431129992229</coordinates></LineString><LineString><coordinates>34.4467103954172,-10.3583683640521 34.4566441422635,-10.2845618162616</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>South Karonga-Sabi-Wovwe-1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">618</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">70.3</SimpleData>
+		<SimpleData name="area">861</SimpleData>
+		<SimpleData name="slip_rate">0.255</SimpleData>
+		<SimpleData name="s_rate_err">0.253</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">7</SimpleData>
+		<SimpleData name="mag_upper">7.3</SimpleData>
+		<SimpleData name="ri_lower">4360</SimpleData>
+		<SimpleData name="ri_int">15600</SimpleData>
+		<SimpleData name="ri_upper">3.63e+15</SimpleData>
+		<SimpleData name="MAFD_id">20, 35, 86</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.0082258081851,-10.2583335446381 33.9279738527577,-10.111826245929</coordinates></LineString><LineString><coordinates>34.0509713905955,-10.3209472909046 33.9768353271289,-10.2404787197361</coordinates></LineString><LineString><coordinates>34.1898997896803,-10.6168325469122 33.9863598982871,-10.3176514209237</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Central Basin Fault 1-3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">613</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="length">50.2</SimpleData>
+		<SimpleData name="area">1195</SimpleData>
+		<SimpleData name="slip_rate">0.134</SimpleData>
+		<SimpleData name="s_rate_err">0.129</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.6</SimpleData>
+		<SimpleData name="ri_lower">9460</SimpleData>
+		<SimpleData name="ri_int">34600</SimpleData>
+		<SimpleData name="ri_upper">5.48e+15</SimpleData>
+		<SimpleData name="MAFD_id">46, 51</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.6247693465516,-11.5162940168134 34.5344630009323,-11.2143342991832</coordinates></LineString><LineString><coordinates>34.5933848993898,-11.6687984984175 34.5922540011017,-11.5292027552934</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>South Karonga-Sabi-Wovwe-2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">619</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">64.3</SimpleData>
+		<SimpleData name="area">724</SimpleData>
+		<SimpleData name="slip_rate">0.258</SimpleData>
+		<SimpleData name="s_rate_err">0.256</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">4010</SimpleData>
+		<SimpleData name="ri_int">14600</SimpleData>
+		<SimpleData name="ri_upper">3.04e+15</SimpleData>
+		<SimpleData name="MAFD_id">20, 35, 86</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.0082258081851,-10.2583335446381 33.9279738527577,-10.111826245929</coordinates></LineString><LineString><coordinates>34.0509713905955,-10.3209472909046 33.9768353271289,-10.2404787197361</coordinates></LineString><LineString><coordinates>34.1898997896803,-10.6168325469122 34.0914688081002,-10.4673245890185 34.0902466647239,-10.3389932049026</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>North Basin Fault 9a-14a</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">624</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">93.9</SimpleData>
+		<SimpleData name="area">3395</SimpleData>
+		<SimpleData name="slip_rate">0.389</SimpleData>
+		<SimpleData name="s_rate_err">0.219</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.6</SimpleData>
+		<SimpleData name="mag_upper">8</SimpleData>
+		<SimpleData name="ri_lower">5500</SimpleData>
+		<SimpleData name="ri_int">41100</SimpleData>
+		<SimpleData name="ri_upper">2.25e+16</SimpleData>
+		<SimpleData name="MAFD_id">73, 112</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.9568795947847,-9.72279488803047 34.2599119396711,-10.045400819756</coordinates></LineString><LineString><coordinates>34.2447583053766,-9.99777675436773 34.297058550227,-10.0579710538753 34.3466888649028,-10.3824021984903</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Central Basin Fault 19-20</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">616</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="length">72.6</SimpleData>
+		<SimpleData name="area">1180</SimpleData>
+		<SimpleData name="slip_rate">0.137</SimpleData>
+		<SimpleData name="s_rate_err">0.13</SimpleData>
+		<SimpleData name="mag_lower">6.8</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">9430</SimpleData>
+		<SimpleData name="ri_int">33100</SimpleData>
+		<SimpleData name="ri_upper">5.4e+15</SimpleData>
+		<SimpleData name="MAFD_id">52, 113</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4449201554454,-11.377296182063 34.4105824128174,-11.253009689933</coordinates></LineString><LineString><coordinates>34.4105823688065,-11.2530006488364 34.4505601055873,-11.1183114845954</coordinates></LineString><LineString><coordinates>34.4650909117114,-11.3276243916686 34.532767600991,-11.4819594616261 34.5432928138867,-11.7012110921973</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>North Basin Fault 9b-14b</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">625</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">91.6</SimpleData>
+		<SimpleData name="area">3257</SimpleData>
+		<SimpleData name="slip_rate">0.532</SimpleData>
+		<SimpleData name="s_rate_err">0.214</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.5</SimpleData>
+		<SimpleData name="mag_upper">8</SimpleData>
+		<SimpleData name="ri_lower">3950</SimpleData>
+		<SimpleData name="ri_int">13700</SimpleData>
+		<SimpleData name="ri_upper">2.95e+16</SimpleData>
+		<SimpleData name="MAFD_id">73, 112</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.0577498811392,-9.6844255720889 34.1354783356464,-9.90505250969646 34.2599119396711,-10.045400819756</coordinates></LineString><LineString><coordinates>34.2447583053766,-9.99777675436773 34.297058550227,-10.0579710538753 34.3466888649028,-10.3824021984903</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<name>Karonga-2-Katesula-2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_multifaults">
+		<SimpleData name="MSSM_id">622</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="length">40.8</SimpleData>
+		<SimpleData name="area">500</SimpleData>
+		<SimpleData name="slip_rate">0.263</SimpleData>
+		<SimpleData name="s_rate_err">0.261</SimpleData>
+		<SimpleData name="mag_lower">6.3</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">3240</SimpleData>
+		<SimpleData name="ri_int">11700</SimpleData>
+		<SimpleData name="ri_upper">2.17e+15</SimpleData>
+		<SimpleData name="MAFD_id">22, 23</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.8396623001898,-9.8940207661952 33.8266619566592,-9.83775560528219 33.8187950249565,-9.83149835936299 33.8145934010915,-9.78011251944934 33.8188993662943,-9.77740711897312 33.8277904627951,-9.71890829748057</coordinates></LineString><LineString><coordinates>33.8731159693828,-9.91107325001142 33.9620484647248,-10.0737826960232</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
