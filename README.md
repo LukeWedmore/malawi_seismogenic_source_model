@@ -9,7 +9,9 @@ The Malawi Seismogenic Source Model (MSSM) is a geospatial database that documen
 
 Source types are mutually exclusice, and so if incorporated into a PSHA, they should be assigned relative weightings.
 
-The MSSD is the first seismogenic source database in central and northern Malawi, and represents an update of the South Malawi Seismogenic Source Database (SMSSD; Williams et al., 2021) because it incorporates new active fault traces (Kolawole et al., 2021; Williams et al., submitted - [MAFD]), new geodetic data ([Wedmore et al., 2021]) and a statistical treatment of uncertainty, within a logic tree approach.
+The MSSD is the first seismogenic source database in central and northern Malawi, and represents an update of the South Malawi Seismogenic Source Database (SMSSD; Williams et al., 2021a) because it incorporates new active fault traces (Kolawole et al., 2021; [Williams et al., 2021b]; [Williams et al., 2022] [MAFD]), new geodetic data ([Wedmore et al., 2021]) and a statistical treatment of uncertainty, within a logic tree approach.
+
+The seismogenic sources in this model are adapted from the faults in the Malawi Active Fault Database ([Williams et al., 2021b]; [Williams et al., 2022]).
 
 ## Citation
 Prior to publication please cite this database using the following two references:
@@ -69,7 +71,11 @@ It is the intention that future versions of this database will include fault sli
 
   Wedmore, L. N. J., Biggs, J., Floyd, M., Fagereng, Å., Mdala, H., Chindandali, P. R. N., et al. (2021). Geodetic constraints on cratonic microplates and broad strain during rifting of thick Southern Africa lithosphere. _Geophysical Research Letters_. 48(17), e2021GL093785. https://doi.org/10.1029/2021GL093785
 
-  Williams, J. N., Mdala, H., Fagereng, Å., Wedmore, L. N. J., Biggs, J., Dulany, Z., et al. (2021). A systems-based approach to parameterise seismic hazard in regions with little historical or instrumental seismicity: Active fault and seismogenic source databases for southern Malawi. Solid Earth, 12(1), 187–217. https://doi.org/10.5194/se-12-187-2021
+  Williams, J. N., Mdala, H., Fagereng, Å., Wedmore, L. N. J., Biggs, J., Dulany, Z., et al. (2021a). A systems-based approach to parameterise seismic hazard in regions with little historical or instrumental seismicity: Active fault and seismogenic source databases for southern Malawi. Solid Earth, 12(1), 187–217. https://doi.org/10.5194/se-12-187-2021
+  
+  Williams, J. N., Wedmore, L. N. J., Scholz, C. A., Kolawole, F., Wright, J. M., Shillington, D. J., Fagereng, Å., Biggs, J., Mdala, H., Dulanya, Z., Mphepo, F., Chindandali, P. R. N., Werner, M. J. (2021b). Malawi Active Fault Database. Hosted on _Zenodo_: https://doi.org/10.5281/zenodo.5507190
+  
+  Williams, J. N., Wedmore, L. N. J., Scholz, C. A., Kolawole, F., Wright, J. M., Shillington, D. J., Fagereng, Å., Biggs, J., Mdala, H., Dulanya, Z., Mphepo, F., Chindandali, P. R. N., Werner, M. J. (2022). The Malawi Active Fault Database: An Onshore-Offshore Database for Regional Assessment of Seismic Hazard and Tectonics Evolution. _Geochemistry, Geophysics, Geosystems_, 23(5), e2022GC010425.  https://doi.org/10.1029/2022GC010425 
 
 
   
@@ -85,3 +91,5 @@ It is the intention that future versions of this database will include fault sli
 [KML]: https://earth.google.com
 [GMT]: https://www.generic-mapping-tools.org/
 [Wedmore et al., 2021]: https://doi.org/10.1029/2021GL093785
+[Williams et al., 2021b]: https://zenodo.org/record/5507190#.YrxpuFl7mN8
+[Williams et al., 2022]: https://doi.org/10.1029/2022GC010425
