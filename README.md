@@ -9,7 +9,7 @@ The Malawi Seismogenic Source Model (MSSM) is a geospatial database that documen
 
 Source types are mutually exclusice, and so if incorporated into a PSHA, they should be assigned relative weightings.
 
-The MSSD is the first seismogenic source database in central and northern Malawi, and represents an update of the South Malawi Seismogenic Source Database (SMSSD; Williams et al., 2021a) because it incorporates new active fault traces (Kolawole et al., 2021; [Williams et al., 2021b]; [Williams et al., 2022] [MAFD]), new geodetic data ([Wedmore et al., 2021]) and a statistical treatment of uncertainty, within a logic tree approach.
+The MSSD is the first seismogenic source database in central and northern Malawi, and represents an update of the South Malawi Seismogenic Source Database (SMSSD; Williams et al., 2021a) because it incorporates new active fault traces (Kolawole et al., 2021; [Williams et al., 2021b]; [Williams et al., 2022]; the [MAFD]), new geodetic data ([Wedmore et al., 2021]) and a statistical treatment of uncertainty, within a logic tree approach.
 
 The seismogenic sources in this model are adapted from the faults in the Malawi Active Fault Database ([Williams et al., 2021b]; [Williams et al., 2022]).
 
@@ -17,7 +17,7 @@ The seismogenic sources in this model are adapted from the faults in the Malawi 
 Prior to publication please cite this database using the following two references:
 Williams, J. N., Wedmore, L. N .J., Fagereng, Å., Werner, M. J., Biggs, J., Mdala, H., Kolawole, F., Shillington, D. J., Dulanya, Z., Mphepo, F., Chindandali, P., Wright, L. J. M.., Scholz, C. A. Geological and geodetic constraints on the seismic hazard of Malawi's active faults: the Malawi Seismogenic Source Model (MSSM). _Manuscript submitted to Natural Hazards and Earth System Sciences_
 
-Williams, Jack N., Wedmore, Luke N. J., Fagereng, Åke, Werner, Maximilian J., Biggs, Juliet, Mdala, Hassan, Kolawole, Folarin, Shillington, Donna J., Dulanya, Zuze, Mphepo, Felix, Chindandali, Patrick R. N., Wright, Lachlan J. M., & Scholz, Christopher A. (2021). Malawi Seismogenic Source Database (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5599617
+Williams, Jack N., Wedmore, Luke N. J., Fagereng, Åke, Werner, Maximilian J., Biggs, Juliet, Mdala, Hassan, Kolawole, Folarin, Shillington, Donna J., Dulanya, Zuze, Mphepo, Felix, Chindandali, Patrick R. N., Wright, Lachlan J. M., & Scholz, Christopher A. (2021). Malawi Seismogenic Source Model (v1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5599617
 
 ## Model Design and File Formats
 The MSSD is a geospatial database that consists of two separate components:
