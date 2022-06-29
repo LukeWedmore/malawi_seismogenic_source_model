@@ -1,0 +1,2836 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="MSSM_faults" id="MSSM_faults">
+	<SimpleField name="MSSM_id" type="string"></SimpleField>
+	<SimpleField name="fault_name" type="string"></SimpleField>
+	<SimpleField name="basin" type="string"></SimpleField>
+	<SimpleField name="class" type="string"></SimpleField>
+	<SimpleField name="length" type="float"></SimpleField>
+	<SimpleField name="area" type="float"></SimpleField>
+	<SimpleField name="strike" type="int"></SimpleField>
+	<SimpleField name="dip_lower" type="int"></SimpleField>
+	<SimpleField name="dip_int" type="int"></SimpleField>
+	<SimpleField name="dip_upper" type="int"></SimpleField>
+	<SimpleField name="dip_dir" type="string"></SimpleField>
+	<SimpleField name="slip_rate" type="float"></SimpleField>
+	<SimpleField name="s_rate_err" type="float"></SimpleField>
+	<SimpleField name="mag_lower" type="float"></SimpleField>
+	<SimpleField name="mag_int" type="float"></SimpleField>
+	<SimpleField name="mag_upper" type="float"></SimpleField>
+	<SimpleField name="ri_lower" type="float"></SimpleField>
+	<SimpleField name="ri_int" type="float"></SimpleField>
+	<SimpleField name="ri_upper" type="float"></SimpleField>
+	<SimpleField name="MAFD_id" type="int"></SimpleField>
+</Schema>
+<Folder><name>MSSM_faults</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">301</SimpleData>
+		<SimpleData name="fault_name">Bilila-Mtakataka-1</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">135.8</SimpleData>
+		<SimpleData name="area">5140</SimpleData>
+		<SimpleData name="strike">329</SimpleData>
+		<SimpleData name="dip_lower">42</SimpleData>
+		<SimpleData name="dip_int">42</SimpleData>
+		<SimpleData name="dip_upper">42</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="slip_rate">0.033</SimpleData>
+		<SimpleData name="s_rate_err">0.021</SimpleData>
+		<SimpleData name="mag_lower">7.4</SimpleData>
+		<SimpleData name="mag_int">7.7</SimpleData>
+		<SimpleData name="mag_upper">8.1</SimpleData>
+		<SimpleData name="ri_lower">26500</SimpleData>
+		<SimpleData name="ri_int">83000</SimpleData>
+		<SimpleData name="ri_upper">261000</SimpleData>
+		<SimpleData name="MAFD_id">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.3578057499554,-13.9521550646285 34.3089402320877,-13.9022059772018</coordinates></LineString><LineString><coordinates>34.941802870633,-14.9268750401872 34.7834547064794,-14.712122510238 34.6629571357245,-14.5819833506202 34.5757353659563,-14.4387024766448 34.5061968821951,-14.2675250408015 34.5184997869146,-14.1626304365246 34.4317028118339,-14.0492584108513 34.357796177064,-13.9521008794168</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">302</SimpleData>
+		<SimpleData name="fault_name">Bilila-Mtakataka-2</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">140.9</SimpleData>
+		<SimpleData name="area">5440</SimpleData>
+		<SimpleData name="strike">329</SimpleData>
+		<SimpleData name="dip_lower">42</SimpleData>
+		<SimpleData name="dip_int">42</SimpleData>
+		<SimpleData name="dip_upper">42</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="slip_rate">0.033</SimpleData>
+		<SimpleData name="s_rate_err">0.021</SimpleData>
+		<SimpleData name="mag_lower">7.4</SimpleData>
+		<SimpleData name="mag_int">7.8</SimpleData>
+		<SimpleData name="mag_upper">8.1</SimpleData>
+		<SimpleData name="ri_lower">27100</SimpleData>
+		<SimpleData name="ri_int">85800</SimpleData>
+		<SimpleData name="ri_upper">272000</SimpleData>
+		<SimpleData name="MAFD_id">12</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.941802870633,-14.9268750401872 34.7834547064794,-14.712122510238 34.6629571357245,-14.5819833506202 34.5757353659563,-14.4387024766448 34.5061968821951,-14.2675250408015 34.5184997869146,-14.1626304365246 34.4317028118339,-14.0492584108513 34.3361172454784,-13.9115596265772 34.3387114296557,-13.9072514658124 34.2884469147258,-13.8661457955083</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">303</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 4</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">11.1</SimpleData>
+		<SimpleData name="area">97</SimpleData>
+		<SimpleData name="strike">137</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.303</SimpleData>
+		<SimpleData name="s_rate_err">0.157</SimpleData>
+		<SimpleData name="mag_lower">5.6</SimpleData>
+		<SimpleData name="mag_int">6</SimpleData>
+		<SimpleData name="mag_upper">6.5</SimpleData>
+		<SimpleData name="ri_lower">220</SimpleData>
+		<SimpleData name="ri_int">1230</SimpleData>
+		<SimpleData name="ri_upper">6930</SimpleData>
+		<SimpleData name="MAFD_id">75</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.035849706479,-9.8617409206148 34.1050715842719,-9.93495973498359</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">304</SimpleData>
+		<SimpleData name="fault_name">South Karonga</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">18.4</SimpleData>
+		<SimpleData name="area">112</SimpleData>
+		<SimpleData name="strike">332</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.253</SimpleData>
+		<SimpleData name="s_rate_err">0.25</SimpleData>
+		<SimpleData name="mag_lower">5.8</SimpleData>
+		<SimpleData name="mag_int">6.1</SimpleData>
+		<SimpleData name="mag_upper">6.4</SimpleData>
+		<SimpleData name="ri_lower">445</SimpleData>
+		<SimpleData name="ri_int">1600</SimpleData>
+		<SimpleData name="ri_upper">5730</SimpleData>
+		<SimpleData name="MAFD_id">20</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.0082258081851,-10.2583335446381 33.9279738527577,-10.111826245929</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">305</SimpleData>
+		<SimpleData name="fault_name">Makanjira</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">123.3</SimpleData>
+		<SimpleData name="area">5345</SimpleData>
+		<SimpleData name="strike">177</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.405</SimpleData>
+		<SimpleData name="s_rate_err">0.193</SimpleData>
+		<SimpleData name="mag_lower">7.3</SimpleData>
+		<SimpleData name="mag_int">7.8</SimpleData>
+		<SimpleData name="mag_upper">8.1</SimpleData>
+		<SimpleData name="ri_lower">2320</SimpleData>
+		<SimpleData name="ri_int">6540</SimpleData>
+		<SimpleData name="ri_upper">18400</SimpleData>
+		<SimpleData name="MAFD_id">10</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.2750398559724,-14.1419400595808 35.2898092782114,-14.3395219800412 35.3357122993877,-14.4040456314029 35.3546500612285,-14.4305106846077 35.4037848949217,-14.5347352057206 35.3797734090394,-14.5452167412265 35.442541459504,-14.6806721462642 35.4335715678365,-14.6844343037359 35.475764840821,-14.9388910822008 35.3465187062858,-15.1540858262424</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">306</SimpleData>
+		<SimpleData name="fault_name">Karonga</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">20.3</SimpleData>
+		<SimpleData name="area">75</SimpleData>
+		<SimpleData name="strike">356</SimpleData>
+		<SimpleData name="dip_lower">60</SimpleData>
+		<SimpleData name="dip_int">60</SimpleData>
+		<SimpleData name="dip_upper">60</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.289</SimpleData>
+		<SimpleData name="s_rate_err">0.269</SimpleData>
+		<SimpleData name="mag_lower">5.6</SimpleData>
+		<SimpleData name="mag_int">5.9</SimpleData>
+		<SimpleData name="mag_upper">6.2</SimpleData>
+		<SimpleData name="ri_lower">330</SimpleData>
+		<SimpleData name="ri_int">1150</SimpleData>
+		<SimpleData name="ri_upper">3990</SimpleData>
+		<SimpleData name="MAFD_id">23</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.8396623001898,-9.8940207661952 33.8266619566592,-9.83775560528219 33.8187950249565,-9.83149835936299 33.8145934010915,-9.78011251944934 33.8188993662943,-9.77740711897312 33.8277904627951,-9.71890829748057</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">307</SimpleData>
+		<SimpleData name="fault_name">Thyolo-1a</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">95.1</SimpleData>
+		<SimpleData name="area">3467</SimpleData>
+		<SimpleData name="strike">146</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.57</SimpleData>
+		<SimpleData name="s_rate_err">0.331</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.6</SimpleData>
+		<SimpleData name="mag_upper">8</SimpleData>
+		<SimpleData name="ri_lower">1170</SimpleData>
+		<SimpleData name="ri_int">3770</SimpleData>
+		<SimpleData name="ri_upper">12100</SimpleData>
+		<SimpleData name="MAFD_id">97</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.7359670139982,-15.8129876189383 34.8760026416093,-16.0729994678562 34.9740735080482,-16.1570440757252 35.0844618134126,-16.2714162062336</coordinates></LineString><LineString><coordinates>35.0844246873906,-16.271443677252 35.0611824358314,-16.3066014455425 35.2237970069074,-16.4911219944476</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">308</SimpleData>
+		<SimpleData name="fault_name">Thyolo-1b</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">41.3</SimpleData>
+		<SimpleData name="area">864</SimpleData>
+		<SimpleData name="strike">139</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.548</SimpleData>
+		<SimpleData name="s_rate_err">0.329</SimpleData>
+		<SimpleData name="mag_lower">6.5</SimpleData>
+		<SimpleData name="mag_int">7</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">578</SimpleData>
+		<SimpleData name="ri_int">1950</SimpleData>
+		<SimpleData name="ri_upper">6580</SimpleData>
+		<SimpleData name="MAFD_id">97</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.9669958671663,-16.2117576441538 35.2237970069074,-16.4911219944476</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">309</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 12</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">23.9</SimpleData>
+		<SimpleData name="area">347</SimpleData>
+		<SimpleData name="strike">155</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.33</SimpleData>
+		<SimpleData name="s_rate_err">0.25</SimpleData>
+		<SimpleData name="mag_lower">6.1</SimpleData>
+		<SimpleData name="mag_int">6.6</SimpleData>
+		<SimpleData name="mag_upper">7.1</SimpleData>
+		<SimpleData name="ri_lower">104</SimpleData>
+		<SimpleData name="ri_int">2050</SimpleData>
+		<SimpleData name="ri_upper">40500</SimpleData>
+		<SimpleData name="MAFD_id">74</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2099574326989,-10.0986943483109 34.3033097944421,-10.2945193900077</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">310</SimpleData>
+		<SimpleData name="fault_name">Bwanje</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">86.8</SimpleData>
+		<SimpleData name="area">935</SimpleData>
+		<SimpleData name="strike">172</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.044</SimpleData>
+		<SimpleData name="s_rate_err">0.032</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7</SimpleData>
+		<SimpleData name="mag_upper">7.3</SimpleData>
+		<SimpleData name="ri_lower">8200</SimpleData>
+		<SimpleData name="ri_int">26500</SimpleData>
+		<SimpleData name="ri_upper">85600</SimpleData>
+		<SimpleData name="MAFD_id">103</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5763337193109,-13.8245890250865 34.6512114419908,-13.9370716693355 34.6298754321667,-14.3855859088831 34.6984431696973,-14.4283692657213 34.685181052604,-14.5498743043589</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">311</SimpleData>
+		<SimpleData name="fault_name">Kavuzi</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">21.1</SimpleData>
+		<SimpleData name="area">282</SimpleData>
+		<SimpleData name="strike">200</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.04</SimpleData>
+		<SimpleData name="s_rate_err">0.029</SimpleData>
+		<SimpleData name="mag_lower">6</SimpleData>
+		<SimpleData name="mag_int">6.5</SimpleData>
+		<SimpleData name="mag_upper">7</SimpleData>
+		<SimpleData name="ri_lower">4620</SimpleData>
+		<SimpleData name="ri_int">15300</SimpleData>
+		<SimpleData name="ri_upper">50900</SimpleData>
+		<SimpleData name="MAFD_id">28</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1248568090291,-11.5948539256522 34.0583378637426,-11.7735973707216</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">312</SimpleData>
+		<SimpleData name="fault_name">Mwanza</SimpleData>
+		<SimpleData name="basin">Lengwe</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">144</SimpleData>
+		<SimpleData name="area">6311</SimpleData>
+		<SimpleData name="strike">127</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.806</SimpleData>
+		<SimpleData name="s_rate_err">0.432</SimpleData>
+		<SimpleData name="mag_lower">7.4</SimpleData>
+		<SimpleData name="mag_int">7.8</SimpleData>
+		<SimpleData name="mag_upper">8.2</SimpleData>
+		<SimpleData name="ri_lower">1140</SimpleData>
+		<SimpleData name="ri_int">3740</SimpleData>
+		<SimpleData name="ri_upper">12200</SimpleData>
+		<SimpleData name="MAFD_id">6</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.8022801169355,-15.4996253573084 34.0128426098515,-15.6842974960402 34.1680051583257,-15.6982215469921 34.3165773570549,-15.8297106752545 34.3362926374177,-15.8263453225678 34.3990432073432,-15.89295915627 34.406074239132,-15.8941065727625 34.8543831021671,-16.2551508267814</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">313</SimpleData>
+		<SimpleData name="fault_name">Lipichili</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">68.3</SimpleData>
+		<SimpleData name="area">1151</SimpleData>
+		<SimpleData name="strike">190</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.126</SimpleData>
+		<SimpleData name="s_rate_err">0.122</SimpleData>
+		<SimpleData name="mag_lower">6.8</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.4</SimpleData>
+		<SimpleData name="ri_lower">2880</SimpleData>
+		<SimpleData name="ri_int">10300</SimpleData>
+		<SimpleData name="ri_upper">36600</SimpleData>
+		<SimpleData name="MAFD_id">48</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4566850379428,-11.0759056680725 34.3587296002146,-11.3109718906903</coordinates></LineString><LineString><coordinates>34.4619160045838,-10.7188750222439 34.4235998934999,-10.9435347344915</coordinates></LineString><LineString><coordinates>34.4236276002582,-10.9435888539072 34.4568014806924,-11.075389755748</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">314</SimpleData>
+		<SimpleData name="fault_name">Lipichili North</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">13.9</SimpleData>
+		<SimpleData name="area">141</SimpleData>
+		<SimpleData name="strike">158</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.133</SimpleData>
+		<SimpleData name="s_rate_err">0.127</SimpleData>
+		<SimpleData name="mag_lower">5.7</SimpleData>
+		<SimpleData name="mag_int">6.2</SimpleData>
+		<SimpleData name="mag_upper">6.7</SimpleData>
+		<SimpleData name="ri_lower">890</SimpleData>
+		<SimpleData name="ri_int">3250</SimpleData>
+		<SimpleData name="ri_upper">11900</SimpleData>
+		<SimpleData name="MAFD_id">64</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.3963539452311,-10.6547810949614 34.4435792771092,-10.7715005227957</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">315</SimpleData>
+		<SimpleData name="fault_name">Tsikulamowa</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">14</SimpleData>
+		<SimpleData name="area">143</SimpleData>
+		<SimpleData name="strike">9</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.04</SimpleData>
+		<SimpleData name="s_rate_err">0.03</SimpleData>
+		<SimpleData name="mag_lower">5.8</SimpleData>
+		<SimpleData name="mag_int">6.2</SimpleData>
+		<SimpleData name="mag_upper">6.7</SimpleData>
+		<SimpleData name="ri_lower">3350</SimpleData>
+		<SimpleData name="ri_int">11300</SimpleData>
+		<SimpleData name="ri_upper">37900</SimpleData>
+		<SimpleData name="MAFD_id">18</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.8004781092618,-15.0483817813126 34.82038386591,-14.923535949506</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">316</SimpleData>
+		<SimpleData name="fault_name">Chingale Step</SimpleData>
+		<SimpleData name="basin">Zomba</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">80</SimpleData>
+		<SimpleData name="area">2599</SimpleData>
+		<SimpleData name="strike">205</SimpleData>
+		<SimpleData name="dip_lower">54</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">NW</SimpleData>
+		<SimpleData name="slip_rate">0.04</SimpleData>
+		<SimpleData name="s_rate_err">0.034</SimpleData>
+		<SimpleData name="mag_lower">7</SimpleData>
+		<SimpleData name="mag_int">7.4</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">11700</SimpleData>
+		<SimpleData name="ri_int">47900</SimpleData>
+		<SimpleData name="ri_upper">195000</SimpleData>
+		<SimpleData name="MAFD_id">9</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.22687604813,-15.0567881096961 35.2103687773547,-15.150808176504 35.1927883998356,-15.1572141443264 35.137001416779,-15.3140111232396 35.1189977174842,-15.3989997056289 34.9231015455665,-15.7001112466005</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">317</SimpleData>
+		<SimpleData name="fault_name">Sani</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">30.7</SimpleData>
+		<SimpleData name="area">528</SimpleData>
+		<SimpleData name="strike">170</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.081</SimpleData>
+		<SimpleData name="s_rate_err">0.082</SimpleData>
+		<SimpleData name="mag_lower">6.3</SimpleData>
+		<SimpleData name="mag_int">6.8</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">2790</SimpleData>
+		<SimpleData name="ri_int">10400</SimpleData>
+		<SimpleData name="ri_upper">38600</SimpleData>
+		<SimpleData name="MAFD_id">25</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.286006407507,-13.0141047506082 34.314214005457,-13.102027159514 34.3251698952324,-13.1791583176921 34.3370181955441,-13.28615245838</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">318</SimpleData>
+		<SimpleData name="fault_name">Chombo</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">10.5</SimpleData>
+		<SimpleData name="area">88</SimpleData>
+		<SimpleData name="strike">148</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.08</SimpleData>
+		<SimpleData name="s_rate_err">0.082</SimpleData>
+		<SimpleData name="mag_lower">5.5</SimpleData>
+		<SimpleData name="mag_int">6</SimpleData>
+		<SimpleData name="mag_upper">6.5</SimpleData>
+		<SimpleData name="ri_lower">1200</SimpleData>
+		<SimpleData name="ri_int">4460</SimpleData>
+		<SimpleData name="ri_upper">16600</SimpleData>
+		<SimpleData name="MAFD_id">30</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.218245478932,-12.8177013105906 34.2700300137508,-12.8980732846796</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">319</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 7a</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">54</SimpleData>
+		<SimpleData name="area">684</SimpleData>
+		<SimpleData name="strike">3</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.076</SimpleData>
+		<SimpleData name="s_rate_err">0.079</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.3</SimpleData>
+		<SimpleData name="ri_lower">3510</SimpleData>
+		<SimpleData name="ri_int">13100</SimpleData>
+		<SimpleData name="ri_upper">48900</SimpleData>
+		<SimpleData name="MAFD_id">87</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2097714202744,-11.9476154918304 34.3226313109026,-11.7875831766697</coordinates></LineString><LineString><coordinates>34.3006301376163,-12.2269531664274 34.2103582075515,-11.9474140509319</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">320</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 7b</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">37.8</SimpleData>
+		<SimpleData name="area">745</SimpleData>
+		<SimpleData name="strike">28</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.059</SimpleData>
+		<SimpleData name="s_rate_err">0.067</SimpleData>
+		<SimpleData name="mag_lower">6.5</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.4</SimpleData>
+		<SimpleData name="ri_lower">4000</SimpleData>
+		<SimpleData name="ri_int">17100</SimpleData>
+		<SimpleData name="ri_upper">73200</SimpleData>
+		<SimpleData name="MAFD_id">87</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1637685799953,-12.0870332380509 34.2097714202744,-11.9476154918304 34.3226313109026,-11.7875831766697</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">321</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 12</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">54</SimpleData>
+		<SimpleData name="area">1350</SimpleData>
+		<SimpleData name="strike">168</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.081</SimpleData>
+		<SimpleData name="s_rate_err">0.082</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7.2</SimpleData>
+		<SimpleData name="mag_upper">7.7</SimpleData>
+		<SimpleData name="ri_lower">4470</SimpleData>
+		<SimpleData name="ri_int">16700</SimpleData>
+		<SimpleData name="ri_upper">62600</SimpleData>
+		<SimpleData name="MAFD_id">45</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.3490359300731,-12.2201562417106 34.4549098025406,-12.6970776998993</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">322</SimpleData>
+		<SimpleData name="fault_name">Liwonde National Park</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">15.8</SimpleData>
+		<SimpleData name="area">174</SimpleData>
+		<SimpleData name="strike">173</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.045</SimpleData>
+		<SimpleData name="s_rate_err">0.032</SimpleData>
+		<SimpleData name="mag_lower">5.8</SimpleData>
+		<SimpleData name="mag_int">6.3</SimpleData>
+		<SimpleData name="mag_upper">6.8</SimpleData>
+		<SimpleData name="ri_lower">3460</SimpleData>
+		<SimpleData name="ri_int">11100</SimpleData>
+		<SimpleData name="ri_upper">35600</SimpleData>
+		<SimpleData name="MAFD_id">101</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.3465943582766,-14.7560816947031 35.3667847191548,-14.8975927511217</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">323</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 2a</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">47</SimpleData>
+		<SimpleData name="area">1071</SimpleData>
+		<SimpleData name="strike">175</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.08</SimpleData>
+		<SimpleData name="s_rate_err">0.081</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">3980</SimpleData>
+		<SimpleData name="ri_int">14900</SimpleData>
+		<SimpleData name="ri_upper">55600</SimpleData>
+		<SimpleData name="MAFD_id">107</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4731868278593,-13.1434746733289 34.5138612518547,-13.5663923892611</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">324</SimpleData>
+		<SimpleData name="fault_name">Mlungusi</SimpleData>
+		<SimpleData name="basin">Zomba</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">38.2</SimpleData>
+		<SimpleData name="area">606</SimpleData>
+		<SimpleData name="strike">1</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.048</SimpleData>
+		<SimpleData name="s_rate_err">0.036</SimpleData>
+		<SimpleData name="mag_lower">6.5</SimpleData>
+		<SimpleData name="mag_int">6.8</SimpleData>
+		<SimpleData name="mag_upper">7.1</SimpleData>
+		<SimpleData name="ri_lower">5560</SimpleData>
+		<SimpleData name="ri_int">19400</SimpleData>
+		<SimpleData name="ri_upper">67500</SimpleData>
+		<SimpleData name="MAFD_id">80</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.9548315835336,-15.4462187442024 34.9417006524484,-15.3987032520904 34.9583594338327,-15.3373538440912 34.9689541673444,-15.2963440064789 34.9869190114448,-15.1939843915601</coordinates></LineString><LineString><coordinates>34.9868066807292,-15.1939130925472 34.966235785115,-15.1801866705808 34.9586487942633,-15.1181176806932</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">325</SimpleData>
+		<SimpleData name="fault_name">Malombe</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">80.7</SimpleData>
+		<SimpleData name="area">1971</SimpleData>
+		<SimpleData name="strike">5</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.041</SimpleData>
+		<SimpleData name="s_rate_err">0.031</SimpleData>
+		<SimpleData name="mag_lower">7</SimpleData>
+		<SimpleData name="mag_int">7.3</SimpleData>
+		<SimpleData name="mag_upper">7.7</SimpleData>
+		<SimpleData name="ri_lower">12100</SimpleData>
+		<SimpleData name="ri_int">39900</SimpleData>
+		<SimpleData name="ri_upper">132000</SimpleData>
+		<SimpleData name="MAFD_id">11</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.1016060403855,-15.1679765989496 35.0924937861353,-15.0794103007854 35.1806906487114,-14.9604302781852 35.1504989378452,-14.8861901217219 35.1613886865051,-14.677000026586 35.1769479832568,-14.6716319975681 35.1558311624461,-14.4846496224443</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">326</SimpleData>
+		<SimpleData name="fault_name">Ruo</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">36</SimpleData>
+		<SimpleData name="area">687</SimpleData>
+		<SimpleData name="strike">135</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.077</SimpleData>
+		<SimpleData name="s_rate_err">0.063</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.4</SimpleData>
+		<SimpleData name="ri_lower">3110</SimpleData>
+		<SimpleData name="ri_int">12400</SimpleData>
+		<SimpleData name="ri_upper">49300</SimpleData>
+		<SimpleData name="MAFD_id">8</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.2964193958231,-16.4201979126684 35.3802944658912,-16.4970864801607 35.4151848471878,-16.5786171699155 35.5278833568043,-16.6401086513811</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">327</SimpleData>
+		<SimpleData name="fault_name">Zomba</SimpleData>
+		<SimpleData name="basin">Zomba</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">70.4</SimpleData>
+		<SimpleData name="area">2100</SimpleData>
+		<SimpleData name="strike">205</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">NW</SimpleData>
+		<SimpleData name="slip_rate">0.532</SimpleData>
+		<SimpleData name="s_rate_err">0.35</SimpleData>
+		<SimpleData name="mag_lower">6.9</SimpleData>
+		<SimpleData name="mag_int">7.4</SimpleData>
+		<SimpleData name="mag_upper">7.8</SimpleData>
+		<SimpleData name="ri_lower">942</SimpleData>
+		<SimpleData name="ri_int">3300</SimpleData>
+		<SimpleData name="ri_upper">11600</SimpleData>
+		<SimpleData name="MAFD_id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.2991606416777,-15.1942181560644 35.214009640625,-15.3739952866985 35.1609931618431,-15.4800036870607 35.1269980702875,-15.5439968299563 35.0314946180605,-15.7745246406993</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">328</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 19</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">42.9</SimpleData>
+		<SimpleData name="area">682</SimpleData>
+		<SimpleData name="strike">169</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.136</SimpleData>
+		<SimpleData name="s_rate_err">0.13</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">2080</SimpleData>
+		<SimpleData name="ri_int">7250</SimpleData>
+		<SimpleData name="ri_upper">25300</SimpleData>
+		<SimpleData name="MAFD_id">52</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4650909117114,-11.3276243916686 34.532767600991,-11.4819594616261 34.5432928138867,-11.7012110921973</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">329</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 3</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">26.6</SimpleData>
+		<SimpleData name="area">143</SimpleData>
+		<SimpleData name="strike">327</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.029</SimpleData>
+		<SimpleData name="s_rate_err">0.02</SimpleData>
+		<SimpleData name="mag_lower">5.9</SimpleData>
+		<SimpleData name="mag_int">6.2</SimpleData>
+		<SimpleData name="mag_upper">6.5</SimpleData>
+		<SimpleData name="ri_lower">5100</SimpleData>
+		<SimpleData name="ri_int">16100</SimpleData>
+		<SimpleData name="ri_upper">50700</SimpleData>
+		<SimpleData name="MAFD_id">41</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5519633115256,-12.1282230761096 34.4187039651239,-11.926631007497</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">330</SimpleData>
+		<SimpleData name="fault_name">Chilingali</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">30.4</SimpleData>
+		<SimpleData name="area">519</SimpleData>
+		<SimpleData name="strike">183</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.077</SimpleData>
+		<SimpleData name="s_rate_err">0.079</SimpleData>
+		<SimpleData name="mag_lower">6.3</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">2850</SimpleData>
+		<SimpleData name="ri_int">10700</SimpleData>
+		<SimpleData name="ri_upper">40500</SimpleData>
+		<SimpleData name="MAFD_id">36</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2187614400063,-12.8807686947435 34.2233585126604,-12.9637879603221 34.1967462535783,-13.0620599008041 34.2055100185864,-13.1516861856499</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">331</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 9</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">45.1</SimpleData>
+		<SimpleData name="area">1000</SimpleData>
+		<SimpleData name="strike">166</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.443</SimpleData>
+		<SimpleData name="s_rate_err">0.247</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">7</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">356</SimpleData>
+		<SimpleData name="ri_int">2650</SimpleData>
+		<SimpleData name="ri_upper">19800</SimpleData>
+		<SimpleData name="MAFD_id">73</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2447583053766,-9.99777675436773 34.297058550227,-10.0579710538753 34.3466888649028,-10.3824021984903</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">332</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 6</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">29</SimpleData>
+		<SimpleData name="area">479</SimpleData>
+		<SimpleData name="strike">156</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.03</SimpleData>
+		<SimpleData name="s_rate_err">0.021</SimpleData>
+		<SimpleData name="mag_lower">6.3</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">8340</SimpleData>
+		<SimpleData name="ri_int">27200</SimpleData>
+		<SimpleData name="ri_upper">88900</SimpleData>
+		<SimpleData name="MAFD_id">53</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4741824676688,-11.8733765044183 34.5841992614171,-12.1122113640954</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">333</SimpleData>
+		<SimpleData name="fault_name">Chiloli</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">10.4</SimpleData>
+		<SimpleData name="area">87</SimpleData>
+		<SimpleData name="strike">168</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.044</SimpleData>
+		<SimpleData name="s_rate_err">0.031</SimpleData>
+		<SimpleData name="mag_lower">5.5</SimpleData>
+		<SimpleData name="mag_int">6</SimpleData>
+		<SimpleData name="mag_upper">6.5</SimpleData>
+		<SimpleData name="ri_lower">2300</SimpleData>
+		<SimpleData name="ri_int">7570</SimpleData>
+		<SimpleData name="ri_upper">24900</SimpleData>
+		<SimpleData name="MAFD_id">98</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.358207996072,-14.6053539789392 35.3785492398049,-14.6968853689963</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">334</SimpleData>
+		<SimpleData name="fault_name">Cape Maclear</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">14.4</SimpleData>
+		<SimpleData name="area">149</SimpleData>
+		<SimpleData name="strike">208</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.033</SimpleData>
+		<SimpleData name="s_rate_err">0.028</SimpleData>
+		<SimpleData name="mag_lower">5.8</SimpleData>
+		<SimpleData name="mag_int">6.2</SimpleData>
+		<SimpleData name="mag_upper">6.5</SimpleData>
+		<SimpleData name="ri_lower">3580</SimpleData>
+		<SimpleData name="ri_int">14100</SimpleData>
+		<SimpleData name="ri_upper">55900</SimpleData>
+		<SimpleData name="MAFD_id">4</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.990695347722,-14.1637049935791 34.9292957296351,-14.2791249119146</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">335</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 8</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">32.7</SimpleData>
+		<SimpleData name="area">453</SimpleData>
+		<SimpleData name="strike">343</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.03</SimpleData>
+		<SimpleData name="s_rate_err">0.021</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7</SimpleData>
+		<SimpleData name="ri_lower">8500</SimpleData>
+		<SimpleData name="ri_int">26700</SimpleData>
+		<SimpleData name="ri_upper">83800</SimpleData>
+		<SimpleData name="MAFD_id">43</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.437979988659,-12.1297602253341 34.3620194898975,-12.0183612460509 34.3536226325164,-11.8569731378415</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">336</SimpleData>
+		<SimpleData name="fault_name">St Mary</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">40</SimpleData>
+		<SimpleData name="area">819</SimpleData>
+		<SimpleData name="strike">157</SimpleData>
+		<SimpleData name="dip_lower">45</SimpleData>
+		<SimpleData name="dip_int">45</SimpleData>
+		<SimpleData name="dip_upper">45</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.208</SimpleData>
+		<SimpleData name="s_rate_err">0.194</SimpleData>
+		<SimpleData name="mag_lower">6.5</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.4</SimpleData>
+		<SimpleData name="ri_lower">1410</SimpleData>
+		<SimpleData name="ri_int">5100</SimpleData>
+		<SimpleData name="ri_upper">18500</SimpleData>
+		<SimpleData name="MAFD_id">19</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.8384813191154,-9.7071162651146 33.9019061178869,-9.88595549777431 33.9197828005272,-9.92563530162347 33.9817342220044,-10.0383474607715</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">337</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 1</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">34.8</SimpleData>
+		<SimpleData name="area">649</SimpleData>
+		<SimpleData name="strike">344</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.134</SimpleData>
+		<SimpleData name="s_rate_err">0.128</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.8</SimpleData>
+		<SimpleData name="mag_upper">7.3</SimpleData>
+		<SimpleData name="ri_lower">1930</SimpleData>
+		<SimpleData name="ri_int">6990</SimpleData>
+		<SimpleData name="ri_upper">25300</SimpleData>
+		<SimpleData name="MAFD_id">51</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.6247693465516,-11.5162940168134 34.5344630009323,-11.2143342991832</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">338</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 2</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">32</SimpleData>
+		<SimpleData name="area">457</SimpleData>
+		<SimpleData name="strike">337</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.134</SimpleData>
+		<SimpleData name="s_rate_err">0.127</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7</SimpleData>
+		<SimpleData name="ri_lower">1720</SimpleData>
+		<SimpleData name="ri_int">6060</SimpleData>
+		<SimpleData name="ri_upper">21300</SimpleData>
+		<SimpleData name="MAFD_id">77</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4540643569377,-11.7240719684912 34.3370654990806,-11.4586186070072</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">339</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 8</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">25.2</SimpleData>
+		<SimpleData name="area">379</SimpleData>
+		<SimpleData name="strike">155</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.38</SimpleData>
+		<SimpleData name="s_rate_err">0.146</SimpleData>
+		<SimpleData name="mag_lower">6.2</SimpleData>
+		<SimpleData name="mag_int">6.6</SimpleData>
+		<SimpleData name="mag_upper">7.1</SimpleData>
+		<SimpleData name="ri_lower">583</SimpleData>
+		<SimpleData name="ri_int">1890</SimpleData>
+		<SimpleData name="ri_upper">6100</SimpleData>
+		<SimpleData name="MAFD_id">70</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2168614966229,-9.80203318615055 34.3142480093987,-10.0082338532821</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">340</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 3</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">15.4</SimpleData>
+		<SimpleData name="area">167</SimpleData>
+		<SimpleData name="strike">360</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.132</SimpleData>
+		<SimpleData name="s_rate_err">0.129</SimpleData>
+		<SimpleData name="mag_lower">5.8</SimpleData>
+		<SimpleData name="mag_int">6.3</SimpleData>
+		<SimpleData name="mag_upper">6.7</SimpleData>
+		<SimpleData name="ri_lower">976</SimpleData>
+		<SimpleData name="ri_int">3580</SimpleData>
+		<SimpleData name="ri_upper">13100</SimpleData>
+		<SimpleData name="MAFD_id">46</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5933848993898,-11.6687984984175 34.5922540011017,-11.5292027552934</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">341</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 10</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">16.3</SimpleData>
+		<SimpleData name="area">148</SimpleData>
+		<SimpleData name="strike">10</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.073</SimpleData>
+		<SimpleData name="s_rate_err">0.077</SimpleData>
+		<SimpleData name="mag_lower">5.9</SimpleData>
+		<SimpleData name="mag_int">6.2</SimpleData>
+		<SimpleData name="mag_upper">6.5</SimpleData>
+		<SimpleData name="ri_lower">1690</SimpleData>
+		<SimpleData name="ri_int">6340</SimpleData>
+		<SimpleData name="ri_upper">23800</SimpleData>
+		<SimpleData name="MAFD_id">39</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.6849881878476,-13.6418002041942 34.7095564697162,-13.4962627525606</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">342</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 5</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">30.6</SimpleData>
+		<SimpleData name="area">524</SimpleData>
+		<SimpleData name="strike">30</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="slip_rate">0.098</SimpleData>
+		<SimpleData name="s_rate_err">0.101</SimpleData>
+		<SimpleData name="mag_lower">6.3</SimpleData>
+		<SimpleData name="mag_int">6.8</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">2230</SimpleData>
+		<SimpleData name="ri_int">8660</SimpleData>
+		<SimpleData name="ri_upper">33700</SimpleData>
+		<SimpleData name="MAFD_id">61</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5255640487794,-11.8630056151484 34.6659844038739,-11.6235208279796</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">343</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 6</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">31.2</SimpleData>
+		<SimpleData name="area">541</SimpleData>
+		<SimpleData name="strike">17</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="slip_rate">0.117</SimpleData>
+		<SimpleData name="s_rate_err">0.114</SimpleData>
+		<SimpleData name="mag_lower">6.3</SimpleData>
+		<SimpleData name="mag_int">6.8</SimpleData>
+		<SimpleData name="mag_upper">7.3</SimpleData>
+		<SimpleData name="ri_lower">2080</SimpleData>
+		<SimpleData name="ri_int">7510</SimpleData>
+		<SimpleData name="ri_upper">27200</SimpleData>
+		<SimpleData name="MAFD_id">47</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.6260038059636,-11.8770730664809 34.7068525224671,-11.6065399056295</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">344</SimpleData>
+		<SimpleData name="fault_name">Katesula</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">20.5</SimpleData>
+		<SimpleData name="area">269</SimpleData>
+		<SimpleData name="strike">152</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.252</SimpleData>
+		<SimpleData name="s_rate_err">0.251</SimpleData>
+		<SimpleData name="mag_lower">6</SimpleData>
+		<SimpleData name="mag_int">6.5</SimpleData>
+		<SimpleData name="mag_upper">6.9</SimpleData>
+		<SimpleData name="ri_lower">649</SimpleData>
+		<SimpleData name="ri_int">2380</SimpleData>
+		<SimpleData name="ri_upper">8750</SimpleData>
+		<SimpleData name="MAFD_id">22</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.8731159693828,-9.91107325001142 33.9620484647248,-10.0737826960232</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">345</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 14</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">35.1</SimpleData>
+		<SimpleData name="area">658</SimpleData>
+		<SimpleData name="strike">153</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.078</SimpleData>
+		<SimpleData name="s_rate_err">0.08</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.3</SimpleData>
+		<SimpleData name="ri_lower">3190</SimpleData>
+		<SimpleData name="ri_int">11900</SimpleData>
+		<SimpleData name="ri_upper">44700</SimpleData>
+		<SimpleData name="MAFD_id">40</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5225820985865,-13.1031045928385 34.6691945318004,-13.3858435255839</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">346</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 15</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">58.2</SimpleData>
+		<SimpleData name="area">1529</SimpleData>
+		<SimpleData name="strike">172</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.03</SimpleData>
+		<SimpleData name="s_rate_err">0.02</SimpleData>
+		<SimpleData name="mag_lower">6.8</SimpleData>
+		<SimpleData name="mag_int">7.2</SimpleData>
+		<SimpleData name="mag_upper">7.7</SimpleData>
+		<SimpleData name="ri_lower">14800</SimpleData>
+		<SimpleData name="ri_int">47000</SimpleData>
+		<SimpleData name="ri_upper">149000</SimpleData>
+		<SimpleData name="MAFD_id">49</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5460397765408,-11.9050138122505 34.6221201150748,-12.1164670193355 34.6209705097741,-12.4184515375075</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">347</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 13a</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">109.3</SimpleData>
+		<SimpleData name="area">4039</SimpleData>
+		<SimpleData name="strike">181</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.503</SimpleData>
+		<SimpleData name="s_rate_err">0.232</SimpleData>
+		<SimpleData name="mag_lower">7.2</SimpleData>
+		<SimpleData name="mag_int">7.6</SimpleData>
+		<SimpleData name="mag_upper">8</SimpleData>
+		<SimpleData name="ri_lower">1830</SimpleData>
+		<SimpleData name="ri_int">4820</SimpleData>
+		<SimpleData name="ri_upper">12700</SimpleData>
+		<SimpleData name="MAFD_id">108</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.8426511745127,-13.3947340392436 34.8320851293216,-14.3829401935256</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">348</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 11</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">29.9</SimpleData>
+		<SimpleData name="area">300</SimpleData>
+		<SimpleData name="strike">342</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.135</SimpleData>
+		<SimpleData name="s_rate_err">0.128</SimpleData>
+		<SimpleData name="mag_lower">6.2</SimpleData>
+		<SimpleData name="mag_int">6.5</SimpleData>
+		<SimpleData name="mag_upper">6.8</SimpleData>
+		<SimpleData name="ri_lower">1370</SimpleData>
+		<SimpleData name="ri_int">4860</SimpleData>
+		<SimpleData name="ri_upper">17300</SimpleData>
+		<SimpleData name="MAFD_id">78</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5356852241154,-11.8000108965798 34.4500823053385,-11.5433366487787</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">349</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 13b</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">88.4</SimpleData>
+		<SimpleData name="area">3070</SimpleData>
+		<SimpleData name="strike">190</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.473</SimpleData>
+		<SimpleData name="s_rate_err">0.231</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.5</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">1650</SimpleData>
+		<SimpleData name="ri_int">4470</SimpleData>
+		<SimpleData name="ri_upper">12100</SimpleData>
+		<SimpleData name="MAFD_id">108</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.8426511745127,-13.3947340392436 34.8324020635696,-13.7852931420023 34.7104146627374,-13.9566469990765 34.7128369671111,-14.1566761352041</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">350</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 13c</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">67.1</SimpleData>
+		<SimpleData name="area">1939</SimpleData>
+		<SimpleData name="strike">173</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.519</SimpleData>
+		<SimpleData name="s_rate_err">0.231</SimpleData>
+		<SimpleData name="mag_lower">6.9</SimpleData>
+		<SimpleData name="mag_int">7.3</SimpleData>
+		<SimpleData name="mag_upper">7.8</SimpleData>
+		<SimpleData name="ri_lower">1240</SimpleData>
+		<SimpleData name="ri_int">3190</SimpleData>
+		<SimpleData name="ri_upper">8200</SimpleData>
+		<SimpleData name="MAFD_id">108</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.8426511745127,-13.3947340392436 34.8235529129595,-13.8329352297175 34.9234842061984,-13.970210825712</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">351</SimpleData>
+		<SimpleData name="fault_name">Bwanwie</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">13.9</SimpleData>
+		<SimpleData name="area">141</SimpleData>
+		<SimpleData name="strike">197</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.037</SimpleData>
+		<SimpleData name="s_rate_err">0.03</SimpleData>
+		<SimpleData name="mag_lower">5.7</SimpleData>
+		<SimpleData name="mag_int">6.2</SimpleData>
+		<SimpleData name="mag_upper">6.7</SimpleData>
+		<SimpleData name="ri_lower">3180</SimpleData>
+		<SimpleData name="ri_int">11700</SimpleData>
+		<SimpleData name="ri_upper">43000</SimpleData>
+		<SimpleData name="MAFD_id">81</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.0444314391763,-14.935631258007 35.0088392802719,-15.0564470971419</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">352</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 14a</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">48.8</SimpleData>
+		<SimpleData name="area">1140</SimpleData>
+		<SimpleData name="strike">137</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.339</SimpleData>
+		<SimpleData name="s_rate_err">0.195</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.6</SimpleData>
+		<SimpleData name="ri_lower">457</SimpleData>
+		<SimpleData name="ri_int">3670</SimpleData>
+		<SimpleData name="ri_upper">29400</SimpleData>
+		<SimpleData name="MAFD_id">112</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.9568795947847,-9.72279488803047 34.2599119396711,-10.045400819756</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">353</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 14b</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">46.5</SimpleData>
+		<SimpleData name="area">1052</SimpleData>
+		<SimpleData name="strike">151</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.617</SimpleData>
+		<SimpleData name="s_rate_err">0.177</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">754</SimpleData>
+		<SimpleData name="ri_int">1940</SimpleData>
+		<SimpleData name="ri_upper">5000</SimpleData>
+		<SimpleData name="MAFD_id">112</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.0577498811392,-9.6844255720889 34.1354783356464,-9.90505250969646 34.2599119396711,-10.045400819756</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">354</SimpleData>
+		<SimpleData name="fault_name">Nkhotakota</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">9.3</SimpleData>
+		<SimpleData name="area">72</SimpleData>
+		<SimpleData name="strike">180</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.078</SimpleData>
+		<SimpleData name="s_rate_err">0.08</SimpleData>
+		<SimpleData name="mag_lower">5.5</SimpleData>
+		<SimpleData name="mag_int">5.9</SimpleData>
+		<SimpleData name="mag_upper">6.4</SimpleData>
+		<SimpleData name="ri_lower">1070</SimpleData>
+		<SimpleData name="ri_int">3990</SimpleData>
+		<SimpleData name="ri_upper">14900</SimpleData>
+		<SimpleData name="MAFD_id">26</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2943348103548,-12.8896728823007 34.2950281796914,-12.9740912446963</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">355</SimpleData>
+		<SimpleData name="fault_name">Nsanje</SimpleData>
+		<SimpleData name="basin">Nsanje</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">33.2</SimpleData>
+		<SimpleData name="area">600</SimpleData>
+		<SimpleData name="strike">22</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.183</SimpleData>
+		<SimpleData name="s_rate_err">0.149</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.8</SimpleData>
+		<SimpleData name="mag_upper">7.3</SimpleData>
+		<SimpleData name="ri_lower">1150</SimpleData>
+		<SimpleData name="ri_int">5200</SimpleData>
+		<SimpleData name="ri_upper">23600</SimpleData>
+		<SimpleData name="MAFD_id">13</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.1353672402808,-17.1652359773334 35.2466392782935,-16.8852020657299</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">356</SimpleData>
+		<SimpleData name="fault_name">Usisya North</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">40.6</SimpleData>
+		<SimpleData name="area">839</SimpleData>
+		<SimpleData name="strike">356</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">1.297</SimpleData>
+		<SimpleData name="s_rate_err">0.586</SimpleData>
+		<SimpleData name="mag_lower">6.5</SimpleData>
+		<SimpleData name="mag_int">7</SimpleData>
+		<SimpleData name="mag_upper">7.4</SimpleData>
+		<SimpleData name="ri_lower">322</SimpleData>
+		<SimpleData name="ri_int">835</SimpleData>
+		<SimpleData name="ri_upper">2170</SimpleData>
+		<SimpleData name="MAFD_id">63</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.3363090417521,-10.9059357822064 34.3067160580733,-10.5401893815932</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">357</SimpleData>
+		<SimpleData name="fault_name">Metangula-1</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">86.5</SimpleData>
+		<SimpleData name="area">2961</SimpleData>
+		<SimpleData name="strike">159</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.525</SimpleData>
+		<SimpleData name="s_rate_err">0.235</SimpleData>
+		<SimpleData name="mag_lower">7.1</SimpleData>
+		<SimpleData name="mag_int">7.5</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">1500</SimpleData>
+		<SimpleData name="ri_int">3890</SimpleData>
+		<SimpleData name="ri_upper">10100</SimpleData>
+		<SimpleData name="MAFD_id">76</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.8843964475271,-12.9091471283026 34.8632191389605,-13.0606921687679 34.8148687781542,-13.0993325012644 34.8056698250747,-13.2106978739074 34.8769035169381,-13.2320485162663 35.1265080907374,-13.5254890309322</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">358</SimpleData>
+		<SimpleData name="fault_name">Metangula-2</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">100.9</SimpleData>
+		<SimpleData name="area">3827</SimpleData>
+		<SimpleData name="strike">163</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.527</SimpleData>
+		<SimpleData name="s_rate_err">0.234</SimpleData>
+		<SimpleData name="mag_lower">7.2</SimpleData>
+		<SimpleData name="mag_int">7.6</SimpleData>
+		<SimpleData name="mag_upper">8</SimpleData>
+		<SimpleData name="ri_lower">1540</SimpleData>
+		<SimpleData name="ri_int">4250</SimpleData>
+		<SimpleData name="ri_upper">11700</SimpleData>
+		<SimpleData name="MAFD_id">76</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.87375358937,-12.9300209894749 34.8632191389605,-13.0606921687679 34.8148687781542,-13.0993325012644 34.8056698250747,-13.2106978739074 34.8769035169381,-13.2320485162663 35.1265080907374,-13.5254890309322</coordinates></LineString><LineString><coordinates>34.902091512771,-12.8131949499266 34.8476687821635,-12.9277485117964 34.8737714778428,-12.9299485539476</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">359</SimpleData>
+		<SimpleData name="fault_name">Sabi</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">12</SimpleData>
+		<SimpleData name="area">107</SimpleData>
+		<SimpleData name="strike">318</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.228</SimpleData>
+		<SimpleData name="s_rate_err">0.232</SimpleData>
+		<SimpleData name="mag_lower">5.6</SimpleData>
+		<SimpleData name="mag_int">6.1</SimpleData>
+		<SimpleData name="mag_upper">6.4</SimpleData>
+		<SimpleData name="ri_lower">483</SimpleData>
+		<SimpleData name="ri_int">1730</SimpleData>
+		<SimpleData name="ri_upper">6190</SimpleData>
+		<SimpleData name="MAFD_id">35</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.0509713905955,-10.3209472909046 33.9768353271289,-10.2404787197361</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">360</SimpleData>
+		<SimpleData name="fault_name">Usisya Tip-1</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">14.9</SimpleData>
+		<SimpleData name="area">158</SimpleData>
+		<SimpleData name="strike">2</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">1.267</SimpleData>
+		<SimpleData name="s_rate_err">0.584</SimpleData>
+		<SimpleData name="mag_lower">5.8</SimpleData>
+		<SimpleData name="mag_int">6.2</SimpleData>
+		<SimpleData name="mag_upper">6.7</SimpleData>
+		<SimpleData name="ri_lower">146</SimpleData>
+		<SimpleData name="ri_int">381</SimpleData>
+		<SimpleData name="ri_upper">994</SimpleData>
+		<SimpleData name="MAFD_id">59</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2863200079045,-10.5993270036977 34.2907240016595,-10.4650967526258</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">361</SimpleData>
+		<SimpleData name="fault_name">Usisya Tip-2</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">13.3</SimpleData>
+		<SimpleData name="area">131</SimpleData>
+		<SimpleData name="strike">17</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">1.135</SimpleData>
+		<SimpleData name="s_rate_err">0.556</SimpleData>
+		<SimpleData name="mag_lower">5.7</SimpleData>
+		<SimpleData name="mag_int">6.1</SimpleData>
+		<SimpleData name="mag_upper">6.6</SimpleData>
+		<SimpleData name="ri_lower">133</SimpleData>
+		<SimpleData name="ri_int">369</SimpleData>
+		<SimpleData name="ri_upper">1020</SimpleData>
+		<SimpleData name="MAFD_id">67</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.3083316187072,-10.5180929421399 34.3442123522909,-10.4034171766563</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">362</SimpleData>
+		<SimpleData name="fault_name">Liwawadzi</SimpleData>
+		<SimpleData name="basin">Zomba</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">33.9</SimpleData>
+		<SimpleData name="area">449</SimpleData>
+		<SimpleData name="strike">2</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.048</SimpleData>
+		<SimpleData name="s_rate_err">0.036</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7</SimpleData>
+		<SimpleData name="ri_lower">4800</SimpleData>
+		<SimpleData name="ri_int">16800</SimpleData>
+		<SimpleData name="ri_upper">58700</SimpleData>
+		<SimpleData name="MAFD_id">79</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>35.0023783239246,-15.3766861388681 35.0105034899343,-15.2992545180288 35.0267666277918,-15.2865656168956 35.0103188220959,-15.0783380567456</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">363</SimpleData>
+		<SimpleData name="fault_name">Usisya Tip-3</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">16.3</SimpleData>
+		<SimpleData name="area">183</SimpleData>
+		<SimpleData name="strike">19</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">1.105</SimpleData>
+		<SimpleData name="s_rate_err">0.554</SimpleData>
+		<SimpleData name="mag_lower">5.9</SimpleData>
+		<SimpleData name="mag_int">6.3</SimpleData>
+		<SimpleData name="mag_upper">6.8</SimpleData>
+		<SimpleData name="ri_lower">158</SimpleData>
+		<SimpleData name="ri_int">451</SimpleData>
+		<SimpleData name="ri_upper">1290</SimpleData>
+		<SimpleData name="MAFD_id">68</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.3693488217517,-10.48293371522 34.4166525679722,-10.3431129992229</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">364</SimpleData>
+		<SimpleData name="fault_name">Usisya Tip-4</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">8.2</SimpleData>
+		<SimpleData name="area">58</SimpleData>
+		<SimpleData name="strike">8</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.587</SimpleData>
+		<SimpleData name="s_rate_err">0.234</SimpleData>
+		<SimpleData name="mag_lower">5.4</SimpleData>
+		<SimpleData name="mag_int">5.8</SimpleData>
+		<SimpleData name="mag_upper">6.3</SimpleData>
+		<SimpleData name="ri_lower">150</SimpleData>
+		<SimpleData name="ri_int">493</SimpleData>
+		<SimpleData name="ri_upper">1620</SimpleData>
+		<SimpleData name="MAFD_id">29</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4467103954172,-10.3583683640521 34.4566441422635,-10.2845618162616</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">365</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 1</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">21.7</SimpleData>
+		<SimpleData name="area">294</SimpleData>
+		<SimpleData name="strike">163</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.472</SimpleData>
+		<SimpleData name="s_rate_err">0.232</SimpleData>
+		<SimpleData name="mag_lower">6.1</SimpleData>
+		<SimpleData name="mag_int">6.5</SimpleData>
+		<SimpleData name="mag_upper">7</SimpleData>
+		<SimpleData name="ri_lower">263</SimpleData>
+		<SimpleData name="ri_int">1330</SimpleData>
+		<SimpleData name="ri_upper">6710</SimpleData>
+		<SimpleData name="MAFD_id">72</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1001737672534,-9.62452587173544 34.1586829516956,-9.81193088652434</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">366</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 2</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">22.7</SimpleData>
+		<SimpleData name="area">318</SimpleData>
+		<SimpleData name="strike">169</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.273</SimpleData>
+		<SimpleData name="s_rate_err">0.128</SimpleData>
+		<SimpleData name="mag_lower">6.1</SimpleData>
+		<SimpleData name="mag_int">6.5</SimpleData>
+		<SimpleData name="mag_upper">7</SimpleData>
+		<SimpleData name="ri_lower">534</SimpleData>
+		<SimpleData name="ri_int">2380</SimpleData>
+		<SimpleData name="ri_upper">10600</SimpleData>
+		<SimpleData name="MAFD_id">71</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.3251299093846,-9.95834954087939 34.3644024265098,-10.1599663524498</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">367</SimpleData>
+		<SimpleData name="fault_name">Lifisi</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">18.4</SimpleData>
+		<SimpleData name="area">224</SimpleData>
+		<SimpleData name="strike">159</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.045</SimpleData>
+		<SimpleData name="s_rate_err">0.032</SimpleData>
+		<SimpleData name="mag_lower">6</SimpleData>
+		<SimpleData name="mag_int">6.4</SimpleData>
+		<SimpleData name="mag_upper">6.9</SimpleData>
+		<SimpleData name="ri_lower">3740</SimpleData>
+		<SimpleData name="ri_int">12300</SimpleData>
+		<SimpleData name="ri_upper">40500</SimpleData>
+		<SimpleData name="MAFD_id">104</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5366080912455,-13.8673253781837 34.597320436464,-14.0224147952949</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">368</SimpleData>
+		<SimpleData name="fault_name">Thyolo-2</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">73.1</SimpleData>
+		<SimpleData name="area">2235</SimpleData>
+		<SimpleData name="strike">142</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.556</SimpleData>
+		<SimpleData name="s_rate_err">0.325</SimpleData>
+		<SimpleData name="mag_lower">6.9</SimpleData>
+		<SimpleData name="mag_int">7.4</SimpleData>
+		<SimpleData name="mag_upper">7.9</SimpleData>
+		<SimpleData name="ri_lower">1010</SimpleData>
+		<SimpleData name="ri_int">3170</SimpleData>
+		<SimpleData name="ri_upper">9990</SimpleData>
+		<SimpleData name="MAFD_id">97</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.7359670139982,-15.8129876189383 34.8760026416093,-16.0729994678562 34.9740735080482,-16.1570440757252 35.1540125001264,-16.3240788710826</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">369</SimpleData>
+		<SimpleData name="fault_name">Panga-1</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">6.2</SimpleData>
+		<SimpleData name="area">37</SimpleData>
+		<SimpleData name="strike">305</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="slip_rate">0.07</SimpleData>
+		<SimpleData name="s_rate_err">0.062</SimpleData>
+		<SimpleData name="mag_lower">5.2</SimpleData>
+		<SimpleData name="mag_int">5.6</SimpleData>
+		<SimpleData name="mag_upper">6.1</SimpleData>
+		<SimpleData name="ri_lower">790</SimpleData>
+		<SimpleData name="ri_int">3290</SimpleData>
+		<SimpleData name="ri_upper">13700</SimpleData>
+		<SimpleData name="MAFD_id">14</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.9457118484773,-16.606323944778 34.897726563646,-16.5741576805039</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">370</SimpleData>
+		<SimpleData name="fault_name">Panga-2</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">11.9</SimpleData>
+		<SimpleData name="area">109</SimpleData>
+		<SimpleData name="strike">300</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="slip_rate">0.067</SimpleData>
+		<SimpleData name="s_rate_err">0.06</SimpleData>
+		<SimpleData name="mag_lower">5.6</SimpleData>
+		<SimpleData name="mag_int">6.1</SimpleData>
+		<SimpleData name="mag_upper">6.6</SimpleData>
+		<SimpleData name="ri_lower">1370</SimpleData>
+		<SimpleData name="ri_int">5700</SimpleData>
+		<SimpleData name="ri_upper">23800</SimpleData>
+		<SimpleData name="MAFD_id">15</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.9108783123161,-16.5539148989172 34.8139028560157,-16.5016579791443</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">371</SimpleData>
+		<SimpleData name="fault_name">Panga-3</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">17.4</SimpleData>
+		<SimpleData name="area">204</SimpleData>
+		<SimpleData name="strike">305</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="slip_rate">0.07</SimpleData>
+		<SimpleData name="s_rate_err">0.062</SimpleData>
+		<SimpleData name="mag_lower">5.9</SimpleData>
+		<SimpleData name="mag_int">6.3</SimpleData>
+		<SimpleData name="mag_upper">6.8</SimpleData>
+		<SimpleData name="ri_lower">1730</SimpleData>
+		<SimpleData name="ri_int">7350</SimpleData>
+		<SimpleData name="ri_upper">31300</SimpleData>
+		<SimpleData name="MAFD_id">16</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.824732053808,-16.4818649720656 34.6913949157959,-16.3921844598273</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">372</SimpleData>
+		<SimpleData name="fault_name">Panga-4</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">28.2</SimpleData>
+		<SimpleData name="area">422</SimpleData>
+		<SimpleData name="strike">309</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="slip_rate">0.074</SimpleData>
+		<SimpleData name="s_rate_err">0.063</SimpleData>
+		<SimpleData name="mag_lower">6.3</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7</SimpleData>
+		<SimpleData name="ri_lower">2740</SimpleData>
+		<SimpleData name="ri_int">10600</SimpleData>
+		<SimpleData name="ri_upper">41100</SimpleData>
+		<SimpleData name="MAFD_id">17</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.8291722212214,-16.4100160069196 34.6243129390527,-16.2497742017891</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">373</SimpleData>
+		<SimpleData name="fault_name">Chirobwe-Ncheu-1</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">106.8</SimpleData>
+		<SimpleData name="area">4207</SimpleData>
+		<SimpleData name="strike">342</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.418</SimpleData>
+		<SimpleData name="s_rate_err">0.192</SimpleData>
+		<SimpleData name="mag_lower">7.2</SimpleData>
+		<SimpleData name="mag_int">7.7</SimpleData>
+		<SimpleData name="mag_upper">8</SimpleData>
+		<SimpleData name="ri_lower">2070</SimpleData>
+		<SimpleData name="ri_int">5610</SimpleData>
+		<SimpleData name="ri_upper">15200</SimpleData>
+		<SimpleData name="MAFD_id">84</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.7313171098717,-14.9632430865826 34.7165605084839,-14.8949479011321 34.7220623080201,-14.8914451624263 34.5818589441009,-14.6863355476597 34.5965357709266,-14.6820864321529 34.5317095652082,-14.4823427521961 34.5296794856243,-14.440551477813 34.4329035961273,-14.0755560664425</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">374</SimpleData>
+		<SimpleData name="fault_name">Chirobwe-Ncheu-2</SimpleData>
+		<SimpleData name="basin">Makanjira</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">121.4</SimpleData>
+		<SimpleData name="area">5209</SimpleData>
+		<SimpleData name="strike">342</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.417</SimpleData>
+		<SimpleData name="s_rate_err">0.192</SimpleData>
+		<SimpleData name="mag_lower">7.3</SimpleData>
+		<SimpleData name="mag_int">7.7</SimpleData>
+		<SimpleData name="mag_upper">8.1</SimpleData>
+		<SimpleData name="ri_lower">2510</SimpleData>
+		<SimpleData name="ri_int">6530</SimpleData>
+		<SimpleData name="ri_upper">17000</SimpleData>
+		<SimpleData name="MAFD_id">84</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.6001679512932,-14.7536452288919 34.5818589441009,-14.6863355476597 34.5965357709266,-14.6820864321529 34.5317095652082,-14.4823427521961 34.5296794856243,-14.440551477813 34.4329035961273,-14.0755560664425</coordinates></LineString><LineString><coordinates>34.7819046992075,-15.0805929219784 34.6791780153485,-14.9734297711329 34.68692065374,-14.9541852981836 34.600168017366,-14.7536542667677</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">375</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 20</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">29.7</SimpleData>
+		<SimpleData name="area">498</SimpleData>
+		<SimpleData name="strike">2</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.13</SimpleData>
+		<SimpleData name="s_rate_err">0.125</SimpleData>
+		<SimpleData name="mag_lower">6.3</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">1730</SimpleData>
+		<SimpleData name="ri_int">6290</SimpleData>
+		<SimpleData name="ri_upper">22900</SimpleData>
+		<SimpleData name="MAFD_id">113</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4449201554454,-11.377296182063 34.4105824128174,-11.253009689933</coordinates></LineString><LineString><coordinates>34.4105823688065,-11.2530006488364 34.4505601055873,-11.1183114845954</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">376</SimpleData>
+		<SimpleData name="fault_name">Leopard Bay-1</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">7</SimpleData>
+		<SimpleData name="area">45</SimpleData>
+		<SimpleData name="strike">163</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.081</SimpleData>
+		<SimpleData name="s_rate_err">0.083</SimpleData>
+		<SimpleData name="mag_lower">5.3</SimpleData>
+		<SimpleData name="mag_int">5.7</SimpleData>
+		<SimpleData name="mag_upper">6.2</SimpleData>
+		<SimpleData name="ri_lower">863</SimpleData>
+		<SimpleData name="ri_int">3170</SimpleData>
+		<SimpleData name="ri_upper">11700</SimpleData>
+		<SimpleData name="MAFD_id">106</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5672170145635,-13.6512580923781 34.5871538218716,-13.7118472312514</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">377</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 7</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">29</SimpleData>
+		<SimpleData name="area">479</SimpleData>
+		<SimpleData name="strike">354</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.136</SimpleData>
+		<SimpleData name="s_rate_err">0.129</SimpleData>
+		<SimpleData name="mag_lower">6.3</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">1630</SimpleData>
+		<SimpleData name="ri_int">5980</SimpleData>
+		<SimpleData name="ri_upper">22000</SimpleData>
+		<SimpleData name="MAFD_id">66</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5025260068902,-10.9189172670064 34.4717904368188,-10.6582783144381</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">378</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 8</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">7.4</SimpleData>
+		<SimpleData name="area">49</SimpleData>
+		<SimpleData name="strike">3</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.129</SimpleData>
+		<SimpleData name="s_rate_err">0.124</SimpleData>
+		<SimpleData name="mag_lower">5.3</SimpleData>
+		<SimpleData name="mag_int">5.7</SimpleData>
+		<SimpleData name="mag_upper">6.2</SimpleData>
+		<SimpleData name="ri_lower">585</SimpleData>
+		<SimpleData name="ri_int">2070</SimpleData>
+		<SimpleData name="ri_upper">7310</SimpleData>
+		<SimpleData name="MAFD_id">65</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4625615581367,-11.0037914970128 34.4657565293906,-10.9371962557929</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">379</SimpleData>
+		<SimpleData name="fault_name">Lisungwe-1</SimpleData>
+		<SimpleData name="basin">Zomba</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">43.7</SimpleData>
+		<SimpleData name="area">949</SimpleData>
+		<SimpleData name="strike">16</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.042</SimpleData>
+		<SimpleData name="s_rate_err">0.034</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">7</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">6940</SimpleData>
+		<SimpleData name="ri_int">27100</SimpleData>
+		<SimpleData name="ri_upper">106000</SimpleData>
+		<SimpleData name="MAFD_id">82</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.6675696803308,-15.7038557717761 34.7016834382837,-15.6369248594852 34.6848253267911,-15.5379329504553</coordinates></LineString><LineString><coordinates>34.6850842676612,-15.5376779243905 34.7275990887329,-15.5094782657153</coordinates></LineString><LineString><coordinates>34.7275990887329,-15.5094782657153 34.7275993475455,-15.5094780940016</coordinates></LineString><LineString><coordinates>34.7275990887329,-15.5094782657153 34.7245760491337,-15.4291599834481 34.743755112332,-15.427528021765 34.7648416898743,-15.3604770256695</coordinates></LineString><LineString><coordinates>34.7275994227115,-15.5094871306869 34.7275990887329,-15.5094782657153</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">380</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 23</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">11.7</SimpleData>
+		<SimpleData name="area">106</SimpleData>
+		<SimpleData name="strike">342</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.137</SimpleData>
+		<SimpleData name="s_rate_err">0.132</SimpleData>
+		<SimpleData name="mag_lower">5.6</SimpleData>
+		<SimpleData name="mag_int">6.1</SimpleData>
+		<SimpleData name="mag_upper">6.5</SimpleData>
+		<SimpleData name="ri_lower">759</SimpleData>
+		<SimpleData name="ri_int">2750</SimpleData>
+		<SimpleData name="ri_upper">9930</SimpleData>
+		<SimpleData name="MAFD_id">62</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.3006413703517,-11.1440246993046 34.2672630422489,-11.0432328868145</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">381</SimpleData>
+		<SimpleData name="fault_name">Elephant Marsh</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">33.1</SimpleData>
+		<SimpleData name="area">597</SimpleData>
+		<SimpleData name="strike">137</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.078</SimpleData>
+		<SimpleData name="s_rate_err">0.065</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.8</SimpleData>
+		<SimpleData name="mag_upper">7.3</SimpleData>
+		<SimpleData name="ri_lower">2980</SimpleData>
+		<SimpleData name="ri_int">11600</SimpleData>
+		<SimpleData name="ri_upper">45300</SimpleData>
+		<SimpleData name="MAFD_id">5</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.889980691889,-16.2056711044235 35.1045809236045,-16.4215496365872</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">382</SimpleData>
+		<SimpleData name="fault_name">Kaporo-2</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">69.6</SimpleData>
+		<SimpleData name="area">2061</SimpleData>
+		<SimpleData name="strike">151</SimpleData>
+		<SimpleData name="dip_lower">50</SimpleData>
+		<SimpleData name="dip_int">50</SimpleData>
+		<SimpleData name="dip_upper">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.276</SimpleData>
+		<SimpleData name="s_rate_err">0.189</SimpleData>
+		<SimpleData name="mag_lower">6.9</SimpleData>
+		<SimpleData name="mag_int">7.3</SimpleData>
+		<SimpleData name="mag_upper">7.8</SimpleData>
+		<SimpleData name="ri_lower">445</SimpleData>
+		<SimpleData name="ri_int">6110</SimpleData>
+		<SimpleData name="ri_upper">83700</SimpleData>
+		<SimpleData name="MAFD_id">109</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.8622801832288,-9.73495714461111 33.9152136511241,-9.81024303845125 34.0062129045016,-10.0259933719753 34.1296772935142,-10.1654079110558 34.1706920058865,-10.276606350827</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">383</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 5</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">159.5</SimpleData>
+		<SimpleData name="area">6990</SimpleData>
+		<SimpleData name="strike">166</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.528</SimpleData>
+		<SimpleData name="s_rate_err">0.235</SimpleData>
+		<SimpleData name="mag_lower">7.5</SimpleData>
+		<SimpleData name="mag_int">7.9</SimpleData>
+		<SimpleData name="mag_upper">8.2</SimpleData>
+		<SimpleData name="ri_lower">2330</SimpleData>
+		<SimpleData name="ri_int">6030</SimpleData>
+		<SimpleData name="ri_upper">15600</SimpleData>
+		<SimpleData name="MAFD_id">38</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4296088888714,-12.157151696718 34.6463567128924,-12.5323158233357 34.7464879183643,-13.082856923596 34.7963384783134,-13.5316017893921</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">384</SimpleData>
+		<SimpleData name="fault_name">Lisungwe-2</SimpleData>
+		<SimpleData name="basin">Zomba</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">48</SimpleData>
+		<SimpleData name="area">1109</SimpleData>
+		<SimpleData name="strike">2</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.047</SimpleData>
+		<SimpleData name="s_rate_err">0.036</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.6</SimpleData>
+		<SimpleData name="ri_lower">7720</SimpleData>
+		<SimpleData name="ri_int">27200</SimpleData>
+		<SimpleData name="ri_upper">95500</SimpleData>
+		<SimpleData name="MAFD_id">82</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.7275990887329,-15.5094782657153 34.7275993475455,-15.5094780940016</coordinates></LineString><LineString><coordinates>34.7275990887329,-15.5094782657153 34.7245760491337,-15.4291599834481 34.743755112332,-15.427528021765 34.7648416898743,-15.3604770256695</coordinates></LineString><LineString><coordinates>34.7524525889295,-15.7414540714252 34.6850842676612,-15.5376779243905 34.7275990887329,-15.5094782657153</coordinates></LineString><LineString><coordinates>34.7275994227115,-15.5094871306869 34.7275990887329,-15.5094782657153</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">385</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 25</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">57.2</SimpleData>
+		<SimpleData name="area">1486</SimpleData>
+		<SimpleData name="strike">12</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.12</SimpleData>
+		<SimpleData name="s_rate_err">0.117</SimpleData>
+		<SimpleData name="mag_lower">6.8</SimpleData>
+		<SimpleData name="mag_int">7.2</SimpleData>
+		<SimpleData name="mag_upper">7.7</SimpleData>
+		<SimpleData name="ri_lower">3220</SimpleData>
+		<SimpleData name="ri_int">11800</SimpleData>
+		<SimpleData name="ri_upper">42900</SimpleData>
+		<SimpleData name="MAFD_id">50</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.7668524756083,-12.0295548189838 34.8689337411602,-11.5224660885865</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">386</SimpleData>
+		<SimpleData name="fault_name">Central Basin Fault 27</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">44.3</SimpleData>
+		<SimpleData name="area">971</SimpleData>
+		<SimpleData name="strike">21</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SE</SimpleData>
+		<SimpleData name="slip_rate">0.11</SimpleData>
+		<SimpleData name="s_rate_err">0.109</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">7</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">2830</SimpleData>
+		<SimpleData name="ri_int">10500</SimpleData>
+		<SimpleData name="ri_upper">38900</SimpleData>
+		<SimpleData name="MAFD_id">57</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5818358977713,-11.7330852642299 34.725531951317,-11.3580753799877</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">387</SimpleData>
+		<SimpleData name="fault_name">Lipichili South</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">15.3</SimpleData>
+		<SimpleData name="area">155</SimpleData>
+		<SimpleData name="strike">187</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.125</SimpleData>
+		<SimpleData name="s_rate_err">0.121</SimpleData>
+		<SimpleData name="mag_lower">5.8</SimpleData>
+		<SimpleData name="mag_int">6.2</SimpleData>
+		<SimpleData name="mag_upper">6.6</SimpleData>
+		<SimpleData name="ri_lower">1070</SimpleData>
+		<SimpleData name="ri_int">3800</SimpleData>
+		<SimpleData name="ri_upper">13500</SimpleData>
+		<SimpleData name="MAFD_id">55</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.3831411377672,-11.2548654974293 34.3665538846715,-11.3919830221036</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">388</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 15a</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">43.2</SimpleData>
+		<SimpleData name="area">931</SimpleData>
+		<SimpleData name="strike">165</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.261</SimpleData>
+		<SimpleData name="s_rate_err">0.164</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">7</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">411</SimpleData>
+		<SimpleData name="ri_int">4280</SimpleData>
+		<SimpleData name="ri_upper">44600</SimpleData>
+		<SimpleData name="MAFD_id">110</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1401342350418,-9.98269724479127 34.2056577167709,-10.2345569749766 34.2491353807113,-10.2939734269001 34.2375192596294,-10.3495836512753</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">389</SimpleData>
+		<SimpleData name="fault_name">Mbiri-1</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">54.4</SimpleData>
+		<SimpleData name="area">1367</SimpleData>
+		<SimpleData name="strike">140</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.233</SimpleData>
+		<SimpleData name="s_rate_err">0.233</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7.2</SimpleData>
+		<SimpleData name="mag_upper">7.7</SimpleData>
+		<SimpleData name="ri_lower">1620</SimpleData>
+		<SimpleData name="ri_int">5950</SimpleData>
+		<SimpleData name="ri_upper">21900</SimpleData>
+		<SimpleData name="MAFD_id">111</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.9521729267716,-10.0855586077255 34.1179832551824,-10.2433701576727 34.2234615518843,-10.3794231341787 34.2732532296369,-10.4575173246961</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">390</SimpleData>
+		<SimpleData name="fault_name">North Basin Fault 15b</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">51.6</SimpleData>
+		<SimpleData name="area">1252</SimpleData>
+		<SimpleData name="strike">166</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.265</SimpleData>
+		<SimpleData name="s_rate_err">0.165</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.6</SimpleData>
+		<SimpleData name="ri_lower">493</SimpleData>
+		<SimpleData name="ri_int">4810</SimpleData>
+		<SimpleData name="ri_upper">47000</SimpleData>
+		<SimpleData name="MAFD_id">110</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1401342350418,-9.98269724479127 34.2056577167709,-10.2345569749766 34.2688218353275,-10.3215120931749</coordinates></LineString><LineString><coordinates>34.2688952845943,-10.3216112699205 34.253369575544,-10.4197902614048</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">391</SimpleData>
+		<SimpleData name="fault_name">Mbiri-2</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">40.6</SimpleData>
+		<SimpleData name="area">839</SimpleData>
+		<SimpleData name="strike">147</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.248</SimpleData>
+		<SimpleData name="s_rate_err">0.244</SimpleData>
+		<SimpleData name="mag_lower">6.5</SimpleData>
+		<SimpleData name="mag_int">7</SimpleData>
+		<SimpleData name="mag_upper">7.4</SimpleData>
+		<SimpleData name="ri_lower">1220</SimpleData>
+		<SimpleData name="ri_int">4410</SimpleData>
+		<SimpleData name="ri_upper">16000</SimpleData>
+		<SimpleData name="MAFD_id">111</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.0705230831739,-10.1520782105462 34.1179832551824,-10.2433701576727 34.2234615518843,-10.3794231341787 34.2732532296369,-10.4575173246961</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">392</SimpleData>
+		<SimpleData name="fault_name">Liwaladzi</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">18.1</SimpleData>
+		<SimpleData name="area">218</SimpleData>
+		<SimpleData name="strike">338</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.081</SimpleData>
+		<SimpleData name="s_rate_err">0.082</SimpleData>
+		<SimpleData name="mag_lower">5.9</SimpleData>
+		<SimpleData name="mag_int">6.4</SimpleData>
+		<SimpleData name="mag_upper">6.9</SimpleData>
+		<SimpleData name="ri_lower">1820</SimpleData>
+		<SimpleData name="ri_int">6770</SimpleData>
+		<SimpleData name="ri_upper">25200</SimpleData>
+		<SimpleData name="MAFD_id">31</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2325115971769,-12.7711733879054 34.1690368157032,-12.6201392650589</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">393</SimpleData>
+		<SimpleData name="fault_name">Mtumba</SimpleData>
+		<SimpleData name="basin">Lower Shire</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">39.5</SimpleData>
+		<SimpleData name="area">802</SimpleData>
+		<SimpleData name="strike">141</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">SW</SimpleData>
+		<SimpleData name="slip_rate">0.078</SimpleData>
+		<SimpleData name="s_rate_err">0.064</SimpleData>
+		<SimpleData name="mag_lower">6.5</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.4</SimpleData>
+		<SimpleData name="ri_lower">3430</SimpleData>
+		<SimpleData name="ri_int">13400</SimpleData>
+		<SimpleData name="ri_upper">52100</SimpleData>
+		<SimpleData name="MAFD_id">7</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.6533689887166,-15.8968930857301 34.8910234324797,-16.1727886131238</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">394</SimpleData>
+		<SimpleData name="fault_name">Wamkurumadzi-1</SimpleData>
+		<SimpleData name="basin">Zomba</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">56.1</SimpleData>
+		<SimpleData name="area">1439</SimpleData>
+		<SimpleData name="strike">358</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.048</SimpleData>
+		<SimpleData name="s_rate_err">0.037</SimpleData>
+		<SimpleData name="mag_lower">6.8</SimpleData>
+		<SimpleData name="mag_int">7.2</SimpleData>
+		<SimpleData name="mag_upper">7.7</SimpleData>
+		<SimpleData name="ri_lower">8730</SimpleData>
+		<SimpleData name="ri_int">30300</SimpleData>
+		<SimpleData name="ri_upper">105000</SimpleData>
+		<SimpleData name="MAFD_id">83</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.574007976127,-15.6936775160378 34.5947291337426,-15.4348486799092 34.6325614837411,-15.3276298762106</coordinates></LineString><LineString><coordinates>34.650999713936,-15.8053902396343 34.5740174437112,-15.6936955233381</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">395</SimpleData>
+		<SimpleData name="fault_name">Wamkurumadzi-2</SimpleData>
+		<SimpleData name="basin">Zomba</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">51.2</SimpleData>
+		<SimpleData name="area">1235</SimpleData>
+		<SimpleData name="strike">6</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.046</SimpleData>
+		<SimpleData name="s_rate_err">0.036</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.6</SimpleData>
+		<SimpleData name="ri_lower">7890</SimpleData>
+		<SimpleData name="ri_int">28600</SimpleData>
+		<SimpleData name="ri_upper">103000</SimpleData>
+		<SimpleData name="MAFD_id">83</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.5877991261971,-15.782923986879 34.5737640380486,-15.6934985176291</coordinates></LineString><LineString><coordinates>34.574007976127,-15.6936775160378 34.5947291337426,-15.4348486799092 34.6325614837411,-15.3276298762106</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">396</SimpleData>
+		<SimpleData name="fault_name">Mtsimukwe</SimpleData>
+		<SimpleData name="basin">Zomba</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">14.1</SimpleData>
+		<SimpleData name="area">144</SimpleData>
+		<SimpleData name="strike">360</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.048</SimpleData>
+		<SimpleData name="s_rate_err">0.036</SimpleData>
+		<SimpleData name="mag_lower">5.8</SimpleData>
+		<SimpleData name="mag_int">6.2</SimpleData>
+		<SimpleData name="mag_upper">6.7</SimpleData>
+		<SimpleData name="ri_lower">2620</SimpleData>
+		<SimpleData name="ri_int">9320</SimpleData>
+		<SimpleData name="ri_upper">33200</SimpleData>
+		<SimpleData name="MAFD_id">2</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.9032265406152,-15.3448433534105 34.9011177993048,-15.2173265325685</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">397</SimpleData>
+		<SimpleData name="fault_name">Kaporo-1</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">55.3</SimpleData>
+		<SimpleData name="area">1407</SimpleData>
+		<SimpleData name="strike">153</SimpleData>
+		<SimpleData name="dip_lower">50</SimpleData>
+		<SimpleData name="dip_int">50</SimpleData>
+		<SimpleData name="dip_upper">50</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.226</SimpleData>
+		<SimpleData name="s_rate_err">0.211</SimpleData>
+		<SimpleData name="mag_lower">6.7</SimpleData>
+		<SimpleData name="mag_int">7.2</SimpleData>
+		<SimpleData name="mag_upper">7.7</SimpleData>
+		<SimpleData name="ri_lower">1780</SimpleData>
+		<SimpleData name="ri_int">6270</SimpleData>
+		<SimpleData name="ri_upper">22000</SimpleData>
+		<SimpleData name="MAFD_id">109</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.8622801832288,-9.73495714461111 33.9152227939923,-9.81025205735082 34.0038660821214,-10.0579050234953 34.0913984878848,-10.1740380166652</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">398</SimpleData>
+		<SimpleData name="fault_name">Livingstone</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">155</SimpleData>
+		<SimpleData name="area">5985</SimpleData>
+		<SimpleData name="strike">151</SimpleData>
+		<SimpleData name="dip_lower">60</SimpleData>
+		<SimpleData name="dip_int">65</SimpleData>
+		<SimpleData name="dip_upper">70</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">2.03</SimpleData>
+		<SimpleData name="s_rate_err">0.86</SimpleData>
+		<SimpleData name="mag_lower">7.5</SimpleData>
+		<SimpleData name="mag_int">7.8</SimpleData>
+		<SimpleData name="mag_upper">8.1</SimpleData>
+		<SimpleData name="ri_lower">550</SimpleData>
+		<SimpleData name="ri_int">1450</SimpleData>
+		<SimpleData name="ri_upper">3800</SimpleData>
+		<SimpleData name="MAFD_id">24</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>33.892792134392,-9.25660666879673 34.5404309395555,-10.0686093790881 34.5195953906892,-10.1215534696802 34.5542122569981,-10.4292656211346</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">399</SimpleData>
+		<SimpleData name="fault_name">Usisya Main</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">border</SimpleData>
+		<SimpleData name="length">120.9</SimpleData>
+		<SimpleData name="area">5173</SimpleData>
+		<SimpleData name="strike">347</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">1.31</SimpleData>
+		<SimpleData name="s_rate_err">0.589</SimpleData>
+		<SimpleData name="mag_lower">7.3</SimpleData>
+		<SimpleData name="mag_int">7.7</SimpleData>
+		<SimpleData name="mag_upper">8.1</SimpleData>
+		<SimpleData name="ri_lower">739</SimpleData>
+		<SimpleData name="ri_int">2000</SimpleData>
+		<SimpleData name="ri_upper">5420</SimpleData>
+		<SimpleData name="MAFD_id">44</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4249002703729,-11.747490186831 34.26058052606,-11.3164425195045 34.23087929043,-11.303827589787 34.1790969585749,-10.7049915308759</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">400</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 11</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">61.1</SimpleData>
+		<SimpleData name="area">1345</SimpleData>
+		<SimpleData name="strike">14</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.071</SimpleData>
+		<SimpleData name="s_rate_err">0.076</SimpleData>
+		<SimpleData name="mag_lower">6.8</SimpleData>
+		<SimpleData name="mag_int">7.2</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">4990</SimpleData>
+		<SimpleData name="ri_int">19400</SimpleData>
+		<SimpleData name="ri_upper">75500</SimpleData>
+		<SimpleData name="MAFD_id">69</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.406585769383,-13.1074881886102 34.4502073403084,-12.846168002696 34.5365058952506,-12.5718839158353</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">401</SimpleData>
+		<SimpleData name="fault_name">Wovwe-1</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">39.9</SimpleData>
+		<SimpleData name="area">642</SimpleData>
+		<SimpleData name="strike">326</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="slip_rate">0.246</SimpleData>
+		<SimpleData name="s_rate_err">0.253</SimpleData>
+		<SimpleData name="mag_lower">6.5</SimpleData>
+		<SimpleData name="mag_int">6.8</SimpleData>
+		<SimpleData name="mag_upper">7.2</SimpleData>
+		<SimpleData name="ri_lower">1060</SimpleData>
+		<SimpleData name="ri_int">3880</SimpleData>
+		<SimpleData name="ri_upper">14200</SimpleData>
+		<SimpleData name="MAFD_id">86</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1898997896803,-10.6168325469122 33.9863598982871,-10.3176514209237</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">402</SimpleData>
+		<SimpleData name="fault_name">Wovwe-2</SimpleData>
+		<SimpleData name="basin">North Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">33.9</SimpleData>
+		<SimpleData name="area">505</SimpleData>
+		<SimpleData name="strike">341</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">NE</SimpleData>
+		<SimpleData name="slip_rate">0.257</SimpleData>
+		<SimpleData name="s_rate_err">0.256</SimpleData>
+		<SimpleData name="mag_lower">6.4</SimpleData>
+		<SimpleData name="mag_int">6.7</SimpleData>
+		<SimpleData name="mag_upper">7.1</SimpleData>
+		<SimpleData name="ri_lower">914</SimpleData>
+		<SimpleData name="ri_int">3300</SimpleData>
+		<SimpleData name="ri_upper">11900</SimpleData>
+		<SimpleData name="MAFD_id">86</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1898997896803,-10.6168325469122 34.0914688081002,-10.4673245890185 34.0902466647239,-10.3389932049026</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">403</SimpleData>
+		<SimpleData name="fault_name">Lweya</SimpleData>
+		<SimpleData name="basin">Central Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">37.2</SimpleData>
+		<SimpleData name="area">725</SimpleData>
+		<SimpleData name="strike">195</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.041</SimpleData>
+		<SimpleData name="s_rate_err">0.03</SimpleData>
+		<SimpleData name="mag_lower">6.5</SimpleData>
+		<SimpleData name="mag_int">6.9</SimpleData>
+		<SimpleData name="mag_upper">7.4</SimpleData>
+		<SimpleData name="ri_lower">7790</SimpleData>
+		<SimpleData name="ri_int">25000</SimpleData>
+		<SimpleData name="ri_upper">80100</SimpleData>
+		<SimpleData name="MAFD_id">27</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.2286932833903,-11.5725050750069 34.2613652182567,-11.6172924128021 34.2096538174194,-11.7098842130316 34.2224395047849,-11.7278228408873 34.1505493267624,-11.8638932820745</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">404</SimpleData>
+		<SimpleData name="fault_name">Kaungozi</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">24.7</SimpleData>
+		<SimpleData name="area">367</SimpleData>
+		<SimpleData name="strike">169</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.081</SimpleData>
+		<SimpleData name="s_rate_err">0.082</SimpleData>
+		<SimpleData name="mag_lower">6.2</SimpleData>
+		<SimpleData name="mag_int">6.6</SimpleData>
+		<SimpleData name="mag_upper">7.1</SimpleData>
+		<SimpleData name="ri_lower">2390</SimpleData>
+		<SimpleData name="ri_int">8830</SimpleData>
+		<SimpleData name="ri_upper">32600</SimpleData>
+		<SimpleData name="MAFD_id">32</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.0282975246144,-12.3016982186582 34.0712600109819,-12.5206220667272</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">405</SimpleData>
+		<SimpleData name="fault_name">Cassimo</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">17.4</SimpleData>
+		<SimpleData name="area">184</SimpleData>
+		<SimpleData name="strike">351</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.08</SimpleData>
+		<SimpleData name="s_rate_err">0.081</SimpleData>
+		<SimpleData name="mag_lower">5.9</SimpleData>
+		<SimpleData name="mag_int">6.3</SimpleData>
+		<SimpleData name="mag_upper">6.6</SimpleData>
+		<SimpleData name="ri_lower">1800</SimpleData>
+		<SimpleData name="ri_int">6460</SimpleData>
+		<SimpleData name="ri_upper">23200</SimpleData>
+		<SimpleData name="MAFD_id">33</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.9329271057792,-13.5427214714555 34.9061400790264,-13.3878006942973</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">406</SimpleData>
+		<SimpleData name="fault_name">Phirilanyama-1</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">21.4</SimpleData>
+		<SimpleData name="area">289</SimpleData>
+		<SimpleData name="strike">359</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.079</SimpleData>
+		<SimpleData name="s_rate_err">0.081</SimpleData>
+		<SimpleData name="mag_lower">6.1</SimpleData>
+		<SimpleData name="mag_int">6.5</SimpleData>
+		<SimpleData name="mag_upper">7</SimpleData>
+		<SimpleData name="ri_lower">2150</SimpleData>
+		<SimpleData name="ri_int">8030</SimpleData>
+		<SimpleData name="ri_upper">30000</SimpleData>
+		<SimpleData name="MAFD_id">85</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1596262384956,-12.7963396957472 34.1546720105266,-12.6029509575628</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">407</SimpleData>
+		<SimpleData name="fault_name">Phirilanyama-2</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">22.1</SimpleData>
+		<SimpleData name="area">305</SimpleData>
+		<SimpleData name="strike">348</SimpleData>
+		<SimpleData name="dip_lower">40</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">E</SimpleData>
+		<SimpleData name="slip_rate">0.082</SimpleData>
+		<SimpleData name="s_rate_err">0.085</SimpleData>
+		<SimpleData name="mag_lower">6.1</SimpleData>
+		<SimpleData name="mag_int">6.5</SimpleData>
+		<SimpleData name="mag_upper">7</SimpleData>
+		<SimpleData name="ri_lower">2200</SimpleData>
+		<SimpleData name="ri_int">8080</SimpleData>
+		<SimpleData name="ri_upper">29700</SimpleData>
+		<SimpleData name="MAFD_id">85</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.1468116573881,-12.7206482807488 34.1546720105266,-12.6029509575628</coordinates></LineString><LineString><coordinates>34.1955949295913,-12.7873368094579 34.1470138202705,-12.720547951957</coordinates></LineString></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#MSSM_faults">
+		<SimpleData name="MSSM_id">408</SimpleData>
+		<SimpleData name="fault_name">South Basin Fault 2b</SimpleData>
+		<SimpleData name="basin">South Basin</SimpleData>
+		<SimpleData name="class">intrarift</SimpleData>
+		<SimpleData name="length">47</SimpleData>
+		<SimpleData name="area">1100</SimpleData>
+		<SimpleData name="strike">179</SimpleData>
+		<SimpleData name="dip_lower">45</SimpleData>
+		<SimpleData name="dip_int">53</SimpleData>
+		<SimpleData name="dip_upper">65</SimpleData>
+		<SimpleData name="dip_dir">W</SimpleData>
+		<SimpleData name="slip_rate">0.078</SimpleData>
+		<SimpleData name="s_rate_err">0.08</SimpleData>
+		<SimpleData name="mag_lower">6.6</SimpleData>
+		<SimpleData name="mag_int">7.1</SimpleData>
+		<SimpleData name="mag_upper">7.5</SimpleData>
+		<SimpleData name="ri_lower">3980</SimpleData>
+		<SimpleData name="ri_int">15200</SimpleData>
+		<SimpleData name="ri_upper">57900</SimpleData>
+		<SimpleData name="MAFD_id">107</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><LineString><coordinates>34.4731868278593,-13.1434746733289 34.4864008344846,-13.568085108926</coordinates></LineString></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
